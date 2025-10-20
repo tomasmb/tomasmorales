@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "experience": "Experiencia",
+    "blog": "Blog",
+    "beliefs": "Principios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Hola, soy Tomas Morales",
+    "subtitle": "un Ingeniero de Producto IA y ex-CTO que construye sistemas de IA generativa que escalan.",
+    "tag1": "Gestión de Productos IA",
+    "tag2": "Ingeniería Full‑Stack",
+    "tag3": "Sistemas de IA Generativa"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio": "Soy un Ingeniero de Producto IA que ama construir sistemas que hacen a las personas más inteligentes. Después de 10 años en software, incluyendo cinco como CTO, he lanzado más de 50 productos desde cero. Ahora diseño infraestructura de aprendizaje impulsada por IA en 2 Hour Learning, combinando profundidad técnica con velocidad de producto.",
+    "philosophy": {
+      "title": "En Qué Creo",
+      "quote1": "Creo que los grandes equipos construyen rápido porque confían profundamente.",
+      "quote2": "Me importa el impacto, la claridad y el arte de construir.",
+      "quote3": "El trabajo debería sentirse como flujo, no fricción."
+    },
+    "funFact": "Cuando no estoy construyendo, hago surf, ciclismo o splitboard en los Andes."
+  },
+  "experience": {
+    "title": "Experiencia y Proyectos",
+    "downloadCV": "Descargar CV",
+    "current": {
+      "company": "2 Hour Learning",
+      "role": "Ingeniero de Producto IA (PM Senior / Líder de Ingeniería)",
+      "period": "Feb 2025 – Presente",
+      "location": "Remoto",
+      "description": "Diseño pipelines de IA generativa que transforman datos educativos en lecciones adaptativas y bancos de preguntas.",
+      "highlights": [
+        "Construí Common Core Crawl — sistema completo de ingestión IA → QTI 3.0 con ~100% de precisión en tipos de preguntas soportados.",
+        "Diseñé motor de aprendizaje basado en grafos de conocimiento (Math Academy Way) para aprendizaje basado en dominio y repetición espaciada.",
+        "Único propietario técnico del sistema asistido por IA que transforma datos de pruebas estandarizadas.",
+        "Documenté estrategias de ingeniería de prompts después de experimentación extensiva.",
+        "Entregué sistemas end-to-end: arquitectura, código, despliegue e iteración a ritmo de startup."
+      ],
+      "tech": "Next.js, Node.js, AWS Lambda, Claude Code, GPT‑4, QTI 3.0"
+    },
+    "past": [
+      {
+        "company": "Tubesoft",
+        "role": "CTO y Co-Fundador",
+        "period": "2020 – 2025",
+        "location": "Remoto",
+        "description": "Lideré un equipo de 15 ingenieros, contratando, mentoreando y construyendo cultura de ingeniería en toda la empresa.",
+        "highlights": [
+          "Dirigí más de 50 proyectos full-stack desde la idea hasta producción en retail, finanzas, agronomía y educación.",
+          "Desarrollé plantillas iniciadoras de proyectos y bibliotecas internas que ahorraron 100–200h por proyecto.",
+          "Construí plataforma interna de gestión de equipos para rastrear proyectos, tiempo, costos y crecimiento profesional.",
+          "Entregué plataformas escalables usando React, Next.js, Node.js, AWS, GCP, Docker."
+        ],
+        "tech": "React, Next.js, Node.js, AWS, GCP, Docker, PostgreSQL"
+      },
+      {
+        "company": "Ztudia",
+        "role": "Fundador (tiempo parcial)",
+        "period": "2024",
+        "location": "Remoto",
+        "description": "Construí un prototipo de tutoría con IA generativa usando modelos GPT tempranos.",
+        "highlights": [
+          "Creé ejercicios personalizados y sistema de retroalimentación automatizada.",
+          "Apliqué ingeniería de prompts para entregar contenido adaptativo alineado con debilidades de estudiantes."
+        ],
+        "tech": "Modelos GPT, Ingeniería de Prompts"
+      },
+      {
+        "company": "Freelance",
+        "role": "Ingeniero de Software",
+        "period": "2015 – 2019",
+        "location": "Chile",
+        "description": "Entregué proyectos full-stack de extremo a extremo.",
+        "highlights": [
+          "Construí una plataforma PreU personalizada para preparación de exámenes adaptativa.",
+          "Desarrollé una herramienta de análisis de mercado inmobiliario para recopilar y analizar datos de propiedades.",
+          "Gestioné requisitos, código, despliegue e incorporación de clientes."
+        ],
+        "tech": "Desarrollo full-stack"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Tecnologías y Herramientas"
+  },
+  "industries": {
+    "title": "Industrias en las que he Trabajado",
+    "subtitle": "Más de 10 años construyendo productos en diversos sectores, desde educación hasta finanzas.",
+    "edtech": {
+      "name": "EdTech",
+      "description": "Plataformas de aprendizaje impulsadas por IA y sistemas educativos adaptativos",
+      "projects": "2 Hour Learning, Ztudia"
+    },
+    "retail": {
+      "name": "Retail",
+      "description": "Plataformas de e-commerce y sistemas de gestión de inventario",
+      "projects": "Liquidos, Tamango, y otros"
+    },
+    "fintech": {
+      "name": "FinTech",
+      "description": "Plataformas de trading y herramientas de análisis financiero",
+      "projects": "TIL (tradesilike.com)"
+    },
+    "realestate": {
+      "name": "Bienes Raíces",
+      "description": "Agregación de datos de propiedades y análisis de mercado",
+      "projects": "Scraper en Go con miles de actualizaciones de precios diarias"
+    },
+    "government": {
+      "name": "Gobierno",
+      "description": "Proyectos de transformación digital del sector público",
+      "projects": "Múltiples plataformas de agencias gubernamentales"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "intro": "Escribo sobre construir productos de IA, sistemas educativos y desempeño humano.",
+    "posts": [
+      {
+        "title": "Cómo Uso IA para Construir Productos 10× Más Rápido",
+        "excerpt": "Mi flujo de trabajo para aprovechar Claude Code y modelos GPT en desarrollo de productos.",
+        "date": "Próximamente"
+      },
+      {
+        "title": "Por Qué los Sistemas de Aprendizaje son el Sandbox Perfecto para IA",
+        "excerpt": "Explorando la intersección de IA y tecnología educativa.",
+        "date": "Próximamente"
+      },
+      {
+        "title": "De CTO a PM de IA: Lecciones sobre Soltar el Control",
+        "excerpt": "Reflexiones sobre la transición de liderar equipos a construir sistemas de IA.",
+        "date": "Próximamente"
+      }
+    ]
+  },
+  "beliefs": {
+    "title": "Qué me Impulsa",
+    "intro": "Estoy obsesionado con sistemas que mejoran cómo las personas aprenden y se desempeñan. Ya sea en aulas o en un sendero de bicicleta, amo empujar límites y diseñar bucles de retroalimentación que hacen que el crecimiento sea inevitable.",
+    "principles": [
+      {
+        "statement": "Impacto > actividad.",
+        "context": "Mido el éxito por resultados, no por producción. Construir lo correcto importa más que construir muchas cosas."
+      },
+      {
+        "statement": "La cultura no son beneficios — es claridad, confianza y ritmo.",
+        "context": "Los grandes equipos se mueven rápido porque se comunican claramente y confían profundamente entre sí."
+      },
+      {
+        "statement": "El pensamiento sistémico supera al esfuerzo heroico.",
+        "context": "El progreso sostenible viene de diseñar mejores procesos, no de trabajar más horas."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Construyamos Juntos",
+    "email": "tomas.morales.ber@gmail.com",
+    "linkedin": "linkedin.com/in/tomasmb1",
+    "github": "github.com/tomasmb"
+  },
+  "footer": {
+    "built": "Construido con Next.js 15 y Tailwind CSS",
+    "openSource": "Santiago, Chile — Abierto a reubicación (preferencia SF)"
+  }
+}

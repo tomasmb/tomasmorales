@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "blog": "Blog",
+    "beliefs": "Beliefs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Tomas Morales",
+    "subtitle": "an AI Product Engineer and former CTO who builds generative AI systems that scale.",
+    "tag1": "AI Product Management",
+    "tag2": "Full‑Stack Engineering",
+    "tag3": "Generative AI Systems"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm an AI Product Engineer who loves building systems that make people smarter. After 10 years in software, including five as CTO, I've launched 50+ products from 0→1. I now design AI‑powered learning infrastructure at 2 Hour Learning, blending technical depth with product speed.",
+    "philosophy": {
+      "title": "What I Believe",
+      "quote1": "I believe great teams build fast because they trust deeply.",
+      "quote2": "I care about impact, clarity, and the craft of building.",
+      "quote3": "Work should feel like flow, not friction."
+    },
+    "funFact": "When I'm not building, I'm surfing, cycling, or splitboarding in the Andes."
+  },
+  "experience": {
+    "title": "Experience & Projects",
+    "downloadCV": "Download CV",
+    "current": {
+      "company": "2 Hour Learning",
+      "role": "AI Product Engineer (Senior PM / Engineering Lead)",
+      "period": "Feb 2025 – Present",
+      "location": "Remote",
+      "description": "Designing generative AI pipelines that transform educational data into adaptive lessons and question banks.",
+      "highlights": [
+        "Built Common Core Crawl — full AI ingestion → QTI 3.0 system with ~100% accuracy on supported question types.",
+        "Designed knowledge‑graph learning engine (Math Academy Way) for mastery-based learning and spaced repetition.",
+        "Sole technical owner of AI-assisted system that transforms standardized test data.",
+        "Documented prompt engineering strategies after extensive experimentation.",
+        "Delivered end-to-end systems: architecture, coding, deployment, and iteration at startup pace."
+      ],
+      "tech": "Next.js, Node.js, AWS Lambda, Claude Code, GPT‑4, QTI 3.0"
+    },
+    "past": [
+      {
+        "company": "Tubesoft",
+        "role": "CTO & Co-Founder",
+        "period": "2020 – 2025",
+        "location": "Remote",
+        "description": "Led a 15-engineer team, hiring, mentoring, and building company-wide engineering culture.",
+        "highlights": [
+          "Directed 50+ full-stack projects from idea to production across retail, finance, agronomy, and education.",
+          "Developed project starter templates and internal libraries that saved 100–200h per project.",
+          "Built internal team management platform for tracking projects, time, costs, and career growth.",
+          "Delivered scalable platforms using React, Next.js, Node.js, AWS, GCP, Docker."
+        ],
+        "tech": "React, Next.js, Node.js, AWS, GCP, Docker, PostgreSQL"
+      },
+      {
+        "company": "Ztudia",
+        "role": "Founder (part-time)",
+        "period": "2024",
+        "location": "Remote",
+        "description": "Built a generative AI tutoring prototype with early GPT models.",
+        "highlights": [
+          "Created personalized exercises and automated feedback system.",
+          "Applied prompt engineering to deliver adaptive content aligned with student weaknesses."
+        ],
+        "tech": "GPT models, Prompt Engineering"
+      },
+      {
+        "company": "Freelance",
+        "role": "Software Engineer",
+        "period": "2015 – 2019",
+        "location": "Chile",
+        "description": "Delivered full-stack projects end-to-end.",
+        "highlights": [
+          "Built a personalized PreU platform for adaptive test prep.",
+          "Developed a real estate market analytics tool to collect and analyze property data.",
+          "Managed requirements, coding, deployment, and client onboarding."
+        ],
+        "tech": "Full-stack development"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technologies & Tools"
+  },
+  "industries": {
+    "title": "Industries I've Worked With",
+    "subtitle": "Over 10 years building products across diverse sectors, from education to finance.",
+    "edtech": {
+      "name": "EdTech",
+      "description": "AI-powered learning platforms and adaptive education systems",
+      "projects": "2 Hour Learning, Ztudia"
+    },
+    "retail": {
+      "name": "Retail",
+      "description": "E-commerce platforms and inventory management systems",
+      "projects": "Liquidos, Tamango, and others"
+    },
+    "fintech": {
+      "name": "FinTech",
+      "description": "Trading platforms and financial analytics tools",
+      "projects": "TIL (tradesilike.com)"
+    },
+    "realestate": {
+      "name": "Real Estate",
+      "description": "Property data aggregation and market analytics",
+      "projects": "Go scraper with thousands of daily price updates"
+    },
+    "government": {
+      "name": "Government",
+      "description": "Public sector digital transformation projects",
+      "projects": "Multiple government agency platforms"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "intro": "I write about building AI products, education systems, and human performance.",
+    "posts": [
+      {
+        "title": "How I Use AI to Build Products 10× Faster",
+        "excerpt": "My workflow for leveraging Claude Code and GPT models in product development.",
+        "date": "Coming soon"
+      },
+      {
+        "title": "Why Learning Systems Are the Perfect AI Sandbox",
+        "excerpt": "Exploring the intersection of AI and education technology.",
+        "date": "Coming soon"
+      },
+      {
+        "title": "From CTO to AI PM: Lessons in Letting Go of Control",
+        "excerpt": "Reflections on transitioning from leading teams to building AI systems.",
+        "date": "Coming soon"
+      }
+    ]
+  },
+  "beliefs": {
+    "title": "What Drives Me",
+    "intro": "I'm obsessed with systems that improve how people learn and perform. Whether in classrooms or on a bike trail, I love pushing boundaries and designing feedback loops that make growth inevitable.",
+    "principles": [
+      {
+        "statement": "Impact > activity.",
+        "context": "I measure success by outcomes, not output. Building the right thing matters more than building many things."
+      },
+      {
+        "statement": "Culture isn't perks — it's clarity, trust, and pace.",
+        "context": "Great teams move fast because they communicate clearly and trust each other deeply."
+      },
+      {
+        "statement": "Systems thinking beats heroic effort.",
+        "context": "Sustainable progress comes from designing better processes, not working longer hours."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Build Together",
+    "email": "tomas.morales.ber@gmail.com",
+    "linkedin": "linkedin.com/in/tomasmb1",
+    "github": "github.com/tomasmb"
+  },
+  "footer": {
+    "built": "Built with Next.js 15 & Tailwind CSS",
+    "openSource": "Santiago, Chile — Open to relocation (SF preferred)"
+  }
+}
