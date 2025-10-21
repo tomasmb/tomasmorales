@@ -122,19 +122,10 @@
     "intro": "Escribo sobre construir productos de IA, sistemas educativos y desempeño humano.",
     "posts": [
       {
-        "title": "Cómo Uso IA para Construir Productos 10× Más Rápido",
-        "excerpt": "Mi flujo de trabajo para aprovechar Claude Code y modelos GPT en desarrollo de productos.",
-        "date": "Próximamente"
-      },
-      {
-        "title": "Por Qué los Sistemas de Aprendizaje son el Sandbox Perfecto para IA",
-        "excerpt": "Explorando la intersección de IA y tecnología educativa.",
-        "date": "Próximamente"
-      },
-      {
-        "title": "De CTO a PM de IA: Lecciones sobre Soltar el Control",
-        "excerpt": "Reflexiones sobre la transición de liderar equipos a construir sistemas de IA.",
-        "date": "Próximamente"
+        "title": "La Verdad Sobre los Ingenieros de IA (De un ex-CTO)",
+        "excerpt": "La IA no ha facilitado el aprendizaje para los ingenieros—simplemente enfrentan lecciones diferentes ahora. Los mejores ingenieros hoy usan la IA como multiplicador de fuerza, no como muleta.",
+        "date": "20 de Octubre, 2025",
+        "url": "https://medium.com/@tomas_37116/the-truth-about-ai-engineers-from-an-ex-cto-274f4397e897"
       }
     ]
   },

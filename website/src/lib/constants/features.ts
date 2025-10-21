@@ -1,5 +1,5 @@
 export const features = {
-  blog: false, // Hide blog section until there are posts
+  blog: true,
   downloadCV: true,
   contactForm: false,
 } as const;

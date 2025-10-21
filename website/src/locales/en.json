@@ -122,19 +122,10 @@
     "intro": "I write about building AI products, education systems, and human performance.",
     "posts": [
       {
-        "title": "How I Use AI to Build Products 10× Faster",
-        "excerpt": "My workflow for leveraging Claude Code and GPT models in product development.",
-        "date": "Coming soon"
-      },
-      {
-        "title": "Why Learning Systems Are the Perfect AI Sandbox",
-        "excerpt": "Exploring the intersection of AI and education technology.",
-        "date": "Coming soon"
-      },
-      {
-        "title": "From CTO to AI PM: Lessons in Letting Go of Control",
-        "excerpt": "Reflections on transitioning from leading teams to building AI systems.",
-        "date": "Coming soon"
+        "title": "The Truth About AI Engineers (From an ex-CTO)",
+        "excerpt": "AI hasn't made learning easier for engineers—they just face different lessons now. The best engineers today use AI as a force multiplier, not a crutch.",
+        "date": "October 20, 2025",
+        "url": "https://medium.com/@tomas_37116/the-truth-about-ai-engineers-from-an-ex-cto-274f4397e897"
       }
     ]
   },

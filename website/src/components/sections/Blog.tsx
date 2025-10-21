@@ -19,22 +19,37 @@ export function Blog() {
           <p className="text-lg text-foreground/70 mb-12">{t('intro')}</p>
 
           <div className="space-y-6">
-            {posts.map((post: never, index: number) => (
-              <div
-                key={index}
-                className="p-6 border border-border rounded-xl hover:border-accent transition-colors cursor-pointer"
-              >
-                <h3 className="text-xl font-semibold mb-2">
-                  {(post as { title: string }).title}
-                </h3>
-                <p className="text-foreground/70 mb-3">
-                  {(post as { excerpt: string }).excerpt}
-                </p>
-                <p className="text-sm text-foreground/50">
-                  {(post as { date: string }).date}
-                </p>
-              </div>
-            ))}
+            {posts.map((post: never, index: number) => {
+              const postData = post as {
+                title: string;
+                excerpt: string;
+                date: string;
+                url?: string;
+              };
+              const content = (
+                <div className="p-6 border border-border rounded-xl hover:border-accent transition-colors cursor-pointer">
+                  <h3 className="text-xl font-semibold mb-2">
+                    {postData.title}
+                  </h3>
+                  <p className="text-foreground/70 mb-3">{postData.excerpt}</p>
+                  <p className="text-sm text-foreground/50">{postData.date}</p>
+                </div>
+              );
+
+              return postData.url ? (
+                <a
+                  key={index}
+                  href={postData.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  {content}
+                </a>
+              ) : (
+                <div key={index}>{content}</div>
+              );
+            })}
           </div>
         </motion.div>
       </div>
