@@ -38,6 +38,25 @@ jobs:
       - name: Configure Docker for Artifact Registry
         run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: ./website/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./website
+        run: npm ci
+
+      - name: Install Playwright browsers for CV generation
+        working-directory: ./website
+        run: npx playwright install chromium --with-deps
+
+      - name: Generate CV PDF
+        working-directory: ./website
+        run: npm run generate:cv
+
       - name: Build Docker image
         working-directory: ./website
         run: |
