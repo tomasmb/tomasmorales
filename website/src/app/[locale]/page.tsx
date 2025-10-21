@@ -4,6 +4,7 @@ import { About } from '@/components/sections/About';
 import { Experience } from '@/components/sections/Experience';
 import { Skills } from '@/components/sections/Skills';
 import { Industries } from '@/components/sections/Industries';
+import { ProjectsPreview } from '@/components/sections/ProjectsPreview';
 import { Blog } from '@/components/sections/Blog';
 import { Beliefs } from '@/components/sections/Beliefs';
 import { Contact } from '@/components/sections/Contact';
@@ -20,6 +21,7 @@ export default function Home() {
         <Experience />
         <Skills />
         <Industries />
+        {features.projects && <ProjectsPreview />}
         {features.blog && <Blog />}
         <Beliefs />
         <Contact />

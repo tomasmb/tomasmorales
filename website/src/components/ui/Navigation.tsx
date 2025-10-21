@@ -2,11 +2,14 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
+import { Link, usePathname } from '@/i18n/navigation';
 import { Menu, X } from 'lucide-react';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { features } from '@/lib/constants/features';
 
 export function Navigation() {
   const t = useTranslations('nav');
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -18,13 +21,44 @@ export function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const isProjectsPage = pathname.includes('/projects');
+
   const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'about', href: '#about' },
-    { key: 'experience', href: '#experience' },
-    { key: 'blog', href: '#blog' },
-    { key: 'beliefs', href: '#beliefs' },
-    { key: 'contact', href: '#contact' },
+    { key: 'home', href: '/', type: 'link' as const },
+    {
+      key: 'about',
+      href: isProjectsPage ? '/#about' : '#about',
+      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+    },
+    {
+      key: 'experience',
+      href: isProjectsPage ? '/#experience' : '#experience',
+      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+    },
+    ...(features.projects
+      ? [
+          {
+            key: 'projects',
+            href: isProjectsPage ? '/#projects' : '#projects',
+            type: isProjectsPage ? ('link' as const) : ('hash' as const),
+          },
+        ]
+      : []),
+    {
+      key: 'blog',
+      href: isProjectsPage ? '/#blog' : '#blog',
+      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+    },
+    {
+      key: 'beliefs',
+      href: isProjectsPage ? '/#beliefs' : '#beliefs',
+      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+    },
+    {
+      key: 'contact',
+      href: isProjectsPage ? '/#contact' : '#contact',
+      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+    },
   ];
 
   return (
@@ -35,20 +69,35 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-bold text-xl text-foreground">
+          <Link href="/" className="font-bold text-xl text-foreground">
             TM
-          </a>
+          </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            {navItems.map(item => (
-              <a
-                key={item.key}
-                href={item.href}
-                className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
-              >
-                {t(item.key as never)}
-              </a>
-            ))}
+            {navItems.map(item => {
+              // Use anchor tags for same-page hash navigation, Link for cross-route
+              if (item.type === 'hash') {
+                return (
+                  <a
+                    key={item.key}
+                    href={item.href}
+                    className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
+                  >
+                    {t(item.key as never)}
+                  </a>
+                );
+              }
+
+              return (
+                <Link
+                  key={item.key}
+                  href={item.href}
+                  className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
+                >
+                  {t(item.key as never)}
+                </Link>
+              );
+            })}
             <LanguageSwitcher />
           </div>
 
@@ -65,16 +114,32 @@ export function Navigation() {
       {isOpen && (
         <div className="md:hidden bg-background border-t border-border">
           <div className="px-4 py-4 space-y-3">
-            {navItems.map(item => (
-              <a
-                key={item.key}
-                href={item.href}
-                className="block py-2 text-sm font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                {t(item.key as never)}
-              </a>
-            ))}
+            {navItems.map(item => {
+              // Use anchor tags for same-page hash navigation, Link for cross-route
+              if (item.type === 'hash') {
+                return (
+                  <a
+                    key={item.key}
+                    href={item.href}
+                    className="block py-2 text-sm font-medium"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {t(item.key as never)}
+                  </a>
+                );
+              }
+
+              return (
+                <Link
+                  key={item.key}
+                  href={item.href}
+                  className="block py-2 text-sm font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {t(item.key as never)}
+                </Link>
+              );
+            })}
             <LanguageSwitcher />
           </div>
         </div>

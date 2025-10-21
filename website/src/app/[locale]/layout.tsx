@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Inter } from 'next/font/google';
 import { locales } from '../../../i18n';
+import { generateStructuredData } from '@/lib/seo/metadata';
 import '../globals.css';
 
 const inter = Inter({
@@ -29,9 +30,18 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const structuredData = generateStructuredData();
 
   return (
     <html lang={locale} className={inter.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(structuredData),
+          }}
+        />
+      </head>
       <body className="font-sans antialiased bg-background text-foreground">
         <NextIntlClientProvider messages={messages}>
           {children}

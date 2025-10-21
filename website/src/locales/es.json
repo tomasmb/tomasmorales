@@ -3,6 +3,7 @@
     "home": "Inicio",
     "about": "Sobre Mí",
     "experience": "Experiencia",
+    "projects": "Proyectos",
     "blog": "Blog",
     "beliefs": "Principios",
     "contact": "Contacto"
@@ -41,7 +42,7 @@
         "Documenté estrategias de ingeniería de prompts después de experimentación extensiva.",
         "Entregué sistemas end-to-end: arquitectura, código, despliegue e iteración a ritmo de startup."
       ],
-      "tech": "Next.js, Node.js, AWS Lambda, Claude Code, GPT‑4, QTI 3.0"
+      "tech": "Next.js, Node.js, AWS Lambda, Claude Code, OpenAI APIs, Anthropic APIs, QTI 3.0"
     },
     "past": [
       {
@@ -68,7 +69,7 @@
           "Creé ejercicios personalizados y sistema de retroalimentación automatizada.",
           "Apliqué ingeniería de prompts para entregar contenido adaptativo alineado con debilidades de estudiantes."
         ],
-        "tech": "Modelos GPT, Ingeniería de Prompts"
+        "tech": "OpenAI APIs, Ingeniería de Prompts"
       },
       {
         "company": "Freelance",
@@ -81,7 +82,7 @@
           "Desarrollé una herramienta de análisis de mercado inmobiliario para recopilar y analizar datos de propiedades.",
           "Gestioné requisitos, código, despliegue e incorporación de clientes."
         ],
-        "tech": "Desarrollo full-stack"
+        "tech": "Ruby on Rails, Golang, Python, AWS, Elastic Beanstalk, PostgreSQL"
       }
     ]
   },
@@ -103,8 +104,8 @@
     },
     "fintech": {
       "name": "FinTech",
-      "description": "Plataformas de trading y herramientas de análisis financiero",
-      "projects": "TIL (tradesilike.com)"
+      "description": "Plataformas de trading, sistemas de arbitraje cripto y herramientas de análisis financiero",
+      "projects": "TIL (tradesilike.com), Bot de arbitraje cripto (Buda/Binance)"
     },
     "realestate": {
       "name": "Bienes Raíces",
@@ -116,6 +117,70 @@
       "description": "Proyectos de transformación digital del sector público",
       "projects": "Múltiples plataformas de agencias gubernamentales"
     }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Una selección de proyectos que demuestran mi profundidad técnica y enfoque de resolución de problemas en FinTech, EdTech y sistemas distribuidos.",
+    "items": [
+      {
+        "slug": "crypto-arbitrage-bot",
+        "title": "Bot de Arbitraje Cripto",
+        "period": "2020",
+        "summary": "Bot automatizado de trading cripto explotando diferencias de precio entre exchanges Binance y Buda usando Golang para rendimiento en microsegundos.",
+        "problem": "Los exchanges de criptomonedas a menudo tienen pequeñas diferencias de precio (spreads) explotables entre mercados. Rastrear y ejecutar operaciones manualmente lo suficientemente rápido para aprovechar estas ineficiencias es imposible para los humanos.",
+        "solution": "Construí un bot de arbitraje completamente automatizado usando Golang para rendimiento de baja latencia. Un backoffice ligero en Node.js + React.js permitía a los usuarios configurar parámetros. El bot consultaba continuamente los precios spot de Binance y Buda en microsegundos, ejecutando instantáneamente pares de compra/venta cuando los spreads excedían los umbrales.",
+        "impact": [
+          "Detectó consistentemente spreads rentables en mercados volátiles",
+          "Ejecutó cientos de micro-operaciones diarias",
+          "Demostró manejo de concurrencia de alto rendimiento en Go"
+        ],
+        "tech": [
+          "Golang",
+          "Node.js",
+          "React.js",
+          "GCP Compute Engine",
+          "GCP SQL",
+          "Pub/Sub"
+        ],
+        "links": []
+      },
+      {
+        "slug": "ztudia",
+        "title": "Ztudia",
+        "period": "2024",
+        "summary": "Plataforma de aprendizaje adaptativo impulsada por IA generando ejercicios personalizados usando modelos GPT con pipelines de validación.",
+        "problem": "Los estudiantes carecen de herramientas de aprendizaje adaptativo que se enfoquen en lo que personalmente necesitan dominar para sus exámenes. Los sistemas existentes no generan ejercicios personalizados vinculados a la comprensión conceptual.",
+        "solution": "Creé una plataforma experimental de aprendizaje impulsada por IA que genera ejercicios personalizados por tema/subtema. Construida con Wasp (React + Node + Prisma) con temas atómicos, descripciones detalladas y ejercicios personalizados generados dinámicamente. Usé GPT-3.5/4o con 2-3 validaciones post-generación.",
+        "impact": [
+          "Habilitó generación adaptativa de preguntas con retroalimentación en tiempo real",
+          "Sirvió como prototipo temprano para tutoría IA basada en dominio",
+          "Proporcionó base técnica para Arbor School (preu.arbor.school)"
+        ],
+        "tech": ["Wasp", "Prisma", "PostgreSQL", "Fly.io", "OpenAI APIs"],
+        "links": []
+      },
+      {
+        "slug": "tradesilike",
+        "title": "TradesILike (TIL)",
+        "period": "2020-2023",
+        "summary": "Plataforma de simulación financiera en tiempo real con datos en vivo de más de 2000 activos, con seguimiento de carteras y tablas de clasificación competitivas.",
+        "problem": "La educación en inversiones es a menudo teórica y el paper trading sin riesgo carece de realismo. Los estudiantes necesitaban una forma de simular carteras reales contra datos en vivo y comparar sus decisiones con otros sin riesgo financiero.",
+        "solution": "Construí TradesILike.com — una plataforma de simulación financiera donde los usuarios crean carteras y compiten en tiempo real. Obtenía datos de más de 2000 activos cada 5 segundos vía GCP Cloud Functions, almacenando precios y estados de cartera en colecciones TimeSeries de MongoDB. El frontend en React.js visualizaba rendimiento de cartera, retornos por acción y tablas de clasificación.",
+        "impact": [
+          "Ayudó a los usuarios a aprender gestión de carteras mediante la práctica",
+          "Fomentó aprendizaje financiero competitivo y gamificado",
+          "Manejó ingesta de datos en tiempo real a escala eficientemente"
+        ],
+        "tech": [
+          "Node.js",
+          "React.js",
+          "MongoDB Atlas",
+          "GCP Cloud Functions",
+          "GCP Kubernetes"
+        ],
+        "links": []
+      }
+    ]
   },
   "blog": {
     "title": "Blog",

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { baseMetadata, generateStructuredData } from '@/lib/seo/metadata';
+import { baseMetadata } from '@/lib/seo/metadata';
 import './globals.css';
 
 export const metadata: Metadata = baseMetadata;
@@ -15,17 +15,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const structuredData = generateStructuredData();
-
-  return (
-    <>
-      {children}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData),
-        }}
-      />
-    </>
-  );
+  return children;
 }
