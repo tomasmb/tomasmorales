@@ -207,6 +207,29 @@
       {
         "statement": "El pensamiento sistémico supera al esfuerzo heroico.",
         "context": "El progreso sostenible viene de diseñar mejores procesos, no de trabajar más horas."
+      },
+      {
+        "statement": "Balance vida-trabajo + deportes = el mejor hack de productividad.",
+        "context": "La condición física no está separada del rendimiento profesional—es la base. Los deportes despejan tu mente, aumentan tu energía, y te hacen más feliz y productivo."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo Que Dicen",
+    "items": [
+      {
+        "name": "Patricio Orrego",
+        "title": "Partner & CCO @ Tubesoft",
+        "relationship": "Trabajaron juntos",
+        "image": "/pato.jpeg",
+        "quote": "Tomás es un profesional muy amable que se toma sus responsabilidades muy en serio. Aprende muy rápido, lo que le ayuda a comprender problemas y desarrollar soluciones de manera muy eficiente. Es una persona con valores sólidos en quien puedes confiar."
+      },
+      {
+        "name": "Carlos Córdova",
+        "title": "Director @ Preuniversitario Carez y Córdova",
+        "relationship": "Cliente",
+        "image": "/carlos.jpeg",
+        "quote": "Tomás destaca tanto en lo técnico como en visión estratégica. Esto fue vital en la creación de nuestra plataforma inteligente que genera material personalizado. Lo recomiendo sin dudarlo por sus sólidos principios, fortaleza técnica y tremenda orientación a resultados."
       }
     ]
   },

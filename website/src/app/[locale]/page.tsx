@@ -1,6 +1,7 @@
 import { Navigation } from '@/components/ui/Navigation';
 import { Hero } from '@/components/sections/Hero';
 import { About } from '@/components/sections/About';
+import { Testimonials } from '@/components/sections/Testimonials';
 import { Experience } from '@/components/sections/Experience';
 import { Skills } from '@/components/sections/Skills';
 import { Industries } from '@/components/sections/Industries';
@@ -18,6 +19,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <Testimonials />
         <Experience />
         <Skills />
         <Industries />

@@ -207,6 +207,29 @@
       {
         "statement": "Systems thinking beats heroic effort.",
         "context": "Sustainable progress comes from designing better processes, not working longer hours."
+      },
+      {
+        "statement": "Work-life balance + sports = ultimate productivity hack.",
+        "context": "Physical fitness isn't separate from professional performance—it's the foundation. Sports clear your mind, boost energy, and make you happier and more productive."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "items": [
+      {
+        "name": "Patricio Orrego",
+        "title": "Partner & CCO @ Tubesoft",
+        "relationship": "Worked together",
+        "image": "/pato.jpeg",
+        "quote": "Tomás is a very kind professional who takes his responsibilities very seriously. He is a very fast learner which helps him understand problems and develop solutions very efficiently. He is a person with strong values that you can trust."
+      },
+      {
+        "name": "Carlos Córdova",
+        "title": "Director @ Preuniversitario Carez y Córdova",
+        "relationship": "Client",
+        "image": "/carlos.jpeg",
+        "quote": "Tomás excels both technically and strategically. This was vital in creating our intelligent platform that generates personalized learning materials. I recommend him without hesitation for his solid principles, technical strength, and tremendous results orientation."
       }
     ]
   },

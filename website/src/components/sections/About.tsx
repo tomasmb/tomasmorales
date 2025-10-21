@@ -20,19 +20,6 @@ export function About() {
             {t('bio')}
           </p>
 
-          <div className="bg-accent/5 rounded-2xl p-8 mb-8">
-            <h3 className="text-xl font-semibold mb-4">
-              {t('philosophy.title')}
-            </h3>
-            <div className="space-y-3">
-              {['quote1', 'quote2', 'quote3'].map(q => (
-                <p key={q} className="text-foreground/80 italic">
-                  &ldquo;{t(`philosophy.${q}` as never)}&rdquo;
-                </p>
-              ))}
-            </div>
-          </div>
-
           <p className="text-foreground/70 text-sm italic">{t('funFact')}</p>
         </motion.div>
       </div>
