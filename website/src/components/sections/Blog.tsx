@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
 
 export function Blog() {
   const t = useTranslations('blog');
@@ -27,12 +28,21 @@ export function Blog() {
                 url?: string;
               };
               const content = (
-                <div className="p-6 border border-border rounded-xl hover:border-accent transition-colors cursor-pointer">
-                  <h3 className="text-xl font-semibold mb-2">
+                <div className="group p-6 border border-border rounded-xl hover:border-accent transition-all duration-300 cursor-pointer">
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-accent transition-colors">
                     {postData.title}
                   </h3>
                   <p className="text-foreground/70 mb-3">{postData.excerpt}</p>
-                  <p className="text-sm text-foreground/50">{postData.date}</p>
+                  <div className="flex items-center justify-between">
+                    <p className="text-sm text-foreground/50">{postData.date}</p>
+                    <div className="flex items-center gap-2 text-sm text-accent font-medium">
+                      <span>Read article</span>
+                      <ArrowRight
+                        size={16}
+                        className="group-hover:translate-x-1 transition-transform"
+                      />
+                    </div>
+                  </div>
                 </div>
               );
 

@@ -2,14 +2,13 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
-import { Link, usePathname } from '@/i18n/navigation';
+import { Link } from '@/i18n/navigation';
 import { Menu, X } from 'lucide-react';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { features } from '@/lib/constants/features';
 
 export function Navigation() {
   const t = useTranslations('nav');
-  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -21,43 +20,41 @@ export function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const isProjectsPage = pathname.includes('/projects');
-
   const navItems = [
     { key: 'home', href: '/', type: 'link' as const },
     {
       key: 'about',
-      href: isProjectsPage ? '/#about' : '#about',
-      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+      href: '#about',
+      type: 'hash' as const,
     },
     {
       key: 'experience',
-      href: isProjectsPage ? '/#experience' : '#experience',
-      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+      href: '#experience',
+      type: 'hash' as const,
     },
     ...(features.projects
       ? [
           {
             key: 'projects',
-            href: isProjectsPage ? '/#projects' : '#projects',
-            type: isProjectsPage ? ('link' as const) : ('hash' as const),
+            href: '#projects',
+            type: 'hash' as const,
           },
         ]
       : []),
     {
       key: 'blog',
-      href: isProjectsPage ? '/#blog' : '#blog',
-      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+      href: '#blog',
+      type: 'hash' as const,
     },
     {
       key: 'beliefs',
-      href: isProjectsPage ? '/#beliefs' : '#beliefs',
-      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+      href: '#beliefs',
+      type: 'hash' as const,
     },
     {
       key: 'contact',
-      href: isProjectsPage ? '/#contact' : '#contact',
-      type: isProjectsPage ? ('link' as const) : ('hash' as const),
+      href: '#contact',
+      type: 'hash' as const,
     },
   ];
 

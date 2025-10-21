@@ -42,7 +42,7 @@
         "Documented prompt engineering strategies after extensive experimentation.",
         "Delivered end-to-end systems: architecture, coding, deployment, and iteration at startup pace."
       ],
-      "tech": "Next.js, Node.js, AWS Lambda, Claude Code, OpenAI APIs, Anthropic APIs, QTI 3.0"
+      "tech": "Next.js, Node.js, AWS, Terraform, MongoDB, PostgreSQL, GraphQL, OpenAI APIs, Anthropic APIs + more"
     },
     "past": [
       {
@@ -57,7 +57,7 @@
           "Built internal team management platform for tracking projects, time, costs, and career growth.",
           "Delivered scalable platforms using React, Next.js, Node.js, AWS, GCP, Docker."
         ],
-        "tech": "React, Next.js, Node.js, AWS, GCP, Docker, PostgreSQL"
+        "tech": "React, Next.js, Node.js, AWS, GCP, Docker, PostgreSQL + more"
       },
       {
         "company": "Ztudia",
@@ -69,7 +69,7 @@
           "Created personalized exercises and automated feedback system.",
           "Applied prompt engineering to deliver adaptive content aligned with student weaknesses."
         ],
-        "tech": "GPT models, Prompt Engineering"
+        "tech": "OpenAI APIs, Prompt Engineering + more"
       },
       {
         "company": "Freelance",
@@ -82,7 +82,7 @@
           "Developed a real estate market analytics tool to collect and analyze property data.",
           "Managed requirements, coding, deployment, and client onboarding."
         ],
-        "tech": "Ruby on Rails, Golang, Python, AWS, Elastic Beanstalk, PostgreSQL"
+        "tech": "Ruby on Rails, Golang, Python, AWS, PostgreSQL + more"
       }
     ]
   },
@@ -138,9 +138,8 @@
           "Golang",
           "Node.js",
           "React.js",
-          "GCP Compute Engine",
-          "GCP SQL",
-          "Pub/Sub"
+          "GCP",
+          "PostgreSQL"
         ],
         "links": []
       },
@@ -156,13 +155,13 @@
           "Served as early prototype for mastery-based AI tutoring",
           "Provided technical foundation for Arbor School (preu.arbor.school)"
         ],
-        "tech": ["Wasp", "Prisma", "PostgreSQL", "Fly.io", "OpenAI APIs"],
+        "tech": ["Wasp", "PostgreSQL", "OpenAI APIs"],
         "links": []
       },
       {
         "slug": "tradesilike",
         "title": "TradesILike (TIL)",
-        "period": "2020-2023",
+        "period": "2024",
         "summary": "Real-time financial simulation platform with live data for 2000+ assets, featuring portfolio tracking and competitive leaderboards.",
         "problem": "Investing education is often theoretical and risk-free paper trading lacks realism. Learners needed a way to simulate real portfolios against live data and compare their decisions to others without financial risk.",
         "solution": "Built TradesILike.com — a financial simulation platform where users create portfolios and compete in real-time. Fetched data for 2000+ assets every 5 seconds via GCP Cloud Functions, storing prices and portfolio states in MongoDB TimeSeries collections. React.js frontend visualized portfolio performance, per-stock returns, and leaderboards.",
@@ -174,9 +173,8 @@
         "tech": [
           "Node.js",
           "React.js",
-          "MongoDB Atlas",
-          "GCP Cloud Functions",
-          "GCP Kubernetes"
+          "MongoDB",
+          "GCP"
         ],
         "links": []
       }

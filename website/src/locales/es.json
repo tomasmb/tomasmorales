@@ -42,7 +42,7 @@
         "Documenté estrategias de ingeniería de prompts después de experimentación extensiva.",
         "Entregué sistemas end-to-end: arquitectura, código, despliegue e iteración a ritmo de startup."
       ],
-      "tech": "Next.js, Node.js, AWS Lambda, Claude Code, OpenAI APIs, Anthropic APIs, QTI 3.0"
+      "tech": "Next.js, Node.js, AWS, Terraform, MongoDB, PostgreSQL, GraphQL, OpenAI APIs, Anthropic APIs + más"
     },
     "past": [
       {
@@ -57,7 +57,7 @@
           "Construí plataforma interna de gestión de equipos para rastrear proyectos, tiempo, costos y crecimiento profesional.",
           "Entregué plataformas escalables usando React, Next.js, Node.js, AWS, GCP, Docker."
         ],
-        "tech": "React, Next.js, Node.js, AWS, GCP, Docker, PostgreSQL"
+        "tech": "React, Next.js, Node.js, AWS, GCP, Docker, PostgreSQL + más"
       },
       {
         "company": "Ztudia",
@@ -69,7 +69,7 @@
           "Creé ejercicios personalizados y sistema de retroalimentación automatizada.",
           "Apliqué ingeniería de prompts para entregar contenido adaptativo alineado con debilidades de estudiantes."
         ],
-        "tech": "OpenAI APIs, Ingeniería de Prompts"
+        "tech": "OpenAI APIs, Ingeniería de Prompts + más"
       },
       {
         "company": "Freelance",
@@ -82,7 +82,7 @@
           "Desarrollé una herramienta de análisis de mercado inmobiliario para recopilar y analizar datos de propiedades.",
           "Gestioné requisitos, código, despliegue e incorporación de clientes."
         ],
-        "tech": "Ruby on Rails, Golang, Python, AWS, Elastic Beanstalk, PostgreSQL"
+        "tech": "Ruby on Rails, Golang, Python, AWS, PostgreSQL + más"
       }
     ]
   },
@@ -138,9 +138,8 @@
           "Golang",
           "Node.js",
           "React.js",
-          "GCP Compute Engine",
-          "GCP SQL",
-          "Pub/Sub"
+          "GCP",
+          "PostgreSQL"
         ],
         "links": []
       },
@@ -156,13 +155,13 @@
           "Sirvió como prototipo temprano para tutoría IA basada en dominio",
           "Proporcionó base técnica para Arbor School (preu.arbor.school)"
         ],
-        "tech": ["Wasp", "Prisma", "PostgreSQL", "Fly.io", "OpenAI APIs"],
+        "tech": ["Wasp", "PostgreSQL", "OpenAI APIs"],
         "links": []
       },
       {
         "slug": "tradesilike",
         "title": "TradesILike (TIL)",
-        "period": "2020-2023",
+        "period": "2024",
         "summary": "Plataforma de simulación financiera en tiempo real con datos en vivo de más de 2000 activos, con seguimiento de carteras y tablas de clasificación competitivas.",
         "problem": "La educación en inversiones es a menudo teórica y el paper trading sin riesgo carece de realismo. Los estudiantes necesitaban una forma de simular carteras reales contra datos en vivo y comparar sus decisiones con otros sin riesgo financiero.",
         "solution": "Construí TradesILike.com — una plataforma de simulación financiera donde los usuarios crean carteras y compiten en tiempo real. Obtenía datos de más de 2000 activos cada 5 segundos vía GCP Cloud Functions, almacenando precios y estados de cartera en colecciones TimeSeries de MongoDB. El frontend en React.js visualizaba rendimiento de cartera, retornos por acción y tablas de clasificación.",
@@ -174,9 +173,8 @@
         "tech": [
           "Node.js",
           "React.js",
-          "MongoDB Atlas",
-          "GCP Cloud Functions",
-          "GCP Kubernetes"
+          "MongoDB",
+          "GCP"
         ],
         "links": []
       }
