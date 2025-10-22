@@ -78,7 +78,7 @@ website/
 │   │   └── es.json
 │   └── middleware.ts           # i18n middleware
 ├── public/                     # Static assets
-│   ├── tomas_web.jpg
+│   ├── tomas_web.webp
 │   └── ...
 ├── docs/                       # Documentation
 │   ├── SEO_BEST_PRACTICES.md

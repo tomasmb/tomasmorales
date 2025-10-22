@@ -21,10 +21,10 @@ export function Hero() {
           <motion.div {...fadeIn}>
             <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
               <Image
-                src="/tomas_web.jpg"
+                src="/tomas_web.webp"
                 alt="Tomas Morales"
                 fill
-                className="rounded-2xl object-cover transition-all hover:scale-105"
+                className="rounded-2xl object-cover object-[center_20%] transition-all hover:scale-105"
                 priority
               />
             </div>
