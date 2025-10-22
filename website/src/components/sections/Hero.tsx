@@ -21,7 +21,7 @@ export function Hero() {
           <motion.div {...fadeIn}>
             <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto">
               <Image
-                src="/tomas.png"
+                src="/tomas_web.jpg"
                 alt="Tomas Morales"
                 fill
                 className="rounded-2xl object-cover transition-all hover:scale-105"

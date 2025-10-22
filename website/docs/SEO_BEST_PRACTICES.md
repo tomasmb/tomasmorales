@@ -75,7 +75,7 @@ const structuredData = {
 
 ```typescript
 <Image
-  src="/tomas.png"
+  src="/tomas_web.jpg"
   alt="Tomas Morales"
   fill
   priority
