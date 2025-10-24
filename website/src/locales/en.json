@@ -134,13 +134,7 @@
           "Executed hundreds of micro-trades daily",
           "Demonstrated high-performance concurrency handling in Go"
         ],
-        "tech": [
-          "Golang",
-          "Node.js",
-          "React.js",
-          "GCP",
-          "PostgreSQL"
-        ],
+        "tech": ["Golang", "Node.js", "React.js", "GCP", "PostgreSQL"],
         "links": []
       },
       {
@@ -170,12 +164,7 @@
           "Fostered competitive, gamified financial learning",
           "Handled real-time data ingestion at scale efficiently"
         ],
-        "tech": [
-          "Node.js",
-          "React.js",
-          "MongoDB",
-          "GCP"
-        ],
+        "tech": ["Node.js", "React.js", "MongoDB", "GCP"],
         "links": []
       }
     ]
@@ -230,6 +219,13 @@
         "relationship": "Client",
         "image": "/carlos.jpeg",
         "quote": "Tomás excels both technically and strategically. This was vital in creating our intelligent platform that generates personalized learning materials. I recommend him without hesitation for his solid principles, technical strength, and tremendous results orientation."
+      },
+      {
+        "name": "Ariel Lobos",
+        "title": "Full Stack Dev @ Tubesoft",
+        "relationship": "Reported to Tomás",
+        "image": "/ariel.jpeg",
+        "quote": "I worked with Tomás for several years and can attest to his professionalism and technical skill. As Tech Lead he always solved problems with excellent disposition, and as CTO he focused on quality and maintainability. He's a great leader, teammate, and mentor who understands work-life balance."
       }
     ]
   },

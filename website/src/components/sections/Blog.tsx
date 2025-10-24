@@ -34,7 +34,9 @@ export function Blog() {
                   </h3>
                   <p className="text-foreground/70 mb-3">{postData.excerpt}</p>
                   <div className="flex items-center justify-between">
-                    <p className="text-sm text-foreground/50">{postData.date}</p>
+                    <p className="text-sm text-foreground/50">
+                      {postData.date}
+                    </p>
                     <div className="flex items-center gap-2 text-sm text-accent font-medium">
                       <span>Read article</span>
                       <ArrowRight

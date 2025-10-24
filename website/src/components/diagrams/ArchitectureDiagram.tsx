@@ -52,11 +52,14 @@ export function ArchitectureDiagram({
     nodeId: string,
     side: 'top' | 'right' | 'bottom' | 'left' = 'bottom'
   ): { x: number; y: number } => {
-    const node = nodes.find((n) => n.id === nodeId);
+    const node = nodes.find(n => n.id === nodeId);
     if (!node) return { x: 0, y: 0 };
 
     const w = node.width || defaultNodeWidth;
-    const h = node.type === 'database' ? databaseHeight : node.height || defaultNodeHeight;
+    const h =
+      node.type === 'database'
+        ? databaseHeight
+        : node.height || defaultNodeHeight;
     const { x, y } = node;
 
     switch (side) {
@@ -190,7 +193,7 @@ export function ArchitectureDiagram({
         strokeWidth="2"
         fill="none"
         markerEnd="url(#arrowhead-end)"
-        markerStart={conn.bidirectional ? "url(#arrowhead-start)" : undefined}
+        markerStart={conn.bidirectional ? 'url(#arrowhead-start)' : undefined}
       />
     );
   };
@@ -204,65 +207,65 @@ export function ArchitectureDiagram({
           viewBox={`0 0 ${width} ${height}`}
           className="text-foreground"
         >
-        <defs>
-          <marker
-            id="arrowhead-end"
-            markerWidth="10"
-            markerHeight="10"
-            refX="9"
-            refY="3"
-            orient="auto"
-          >
-            <polygon points="0 0, 10 3, 0 6" fill="currentColor" />
-          </marker>
-          <marker
-            id="arrowhead-start"
-            markerWidth="10"
-            markerHeight="10"
-            refX="1"
-            refY="3"
-            orient="auto"
-          >
-            <polygon points="10 0, 0 3, 10 6" fill="currentColor" />
-          </marker>
-        </defs>
-
-        {/* Render groups */}
-        {groups.map((group) => (
-          <g key={group.id}>
-            <rect
-              x={group.x}
-              y={group.y}
-              width={group.width}
-              height={group.height}
-              rx="12"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeDasharray="4 4"
-              opacity="0.4"
-            />
-            <text
-              x={group.x + group.width / 2}
-              y={group.y + group.height - 10}
-              textAnchor="middle"
-              className="text-xs font-medium fill-current opacity-60"
+          <defs>
+            <marker
+              id="arrowhead-end"
+              markerWidth="10"
+              markerHeight="10"
+              refX="9"
+              refY="3"
+              orient="auto"
             >
-              {group.label}
-            </text>
-          </g>
-        ))}
+              <polygon points="0 0, 10 3, 0 6" fill="currentColor" />
+            </marker>
+            <marker
+              id="arrowhead-start"
+              markerWidth="10"
+              markerHeight="10"
+              refX="1"
+              refY="3"
+              orient="auto"
+            >
+              <polygon points="10 0, 0 3, 10 6" fill="currentColor" />
+            </marker>
+          </defs>
 
-        {/* Render connections first (so they appear behind nodes) */}
-        {connections.map((conn, index) => renderConnection(conn, index))}
+          {/* Render groups */}
+          {groups.map(group => (
+            <g key={group.id}>
+              <rect
+                x={group.x}
+                y={group.y}
+                width={group.width}
+                height={group.height}
+                rx="12"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeDasharray="4 4"
+                opacity="0.4"
+              />
+              <text
+                x={group.x + group.width / 2}
+                y={group.y + group.height - 10}
+                textAnchor="middle"
+                className="text-xs font-medium fill-current opacity-60"
+              >
+                {group.label}
+              </text>
+            </g>
+          ))}
 
-        {/* Render nodes */}
-        {nodes.map((node) => {
-          if (node.type === 'database') {
-            return renderDatabase(node);
-          }
-          return renderBox(node);
-        })}
+          {/* Render connections first (so they appear behind nodes) */}
+          {connections.map((conn, index) => renderConnection(conn, index))}
+
+          {/* Render nodes */}
+          {nodes.map(node => {
+            if (node.type === 'database') {
+              return renderDatabase(node);
+            }
+            return renderBox(node);
+          })}
         </svg>
       </div>
     </div>
