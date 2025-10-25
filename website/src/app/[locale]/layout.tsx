@@ -33,12 +33,34 @@ export default async function LocaleLayout({
   const structuredData = generateStructuredData();
 
   return (
-    <html lang={locale} className={inter.variable}>
+    <html lang={locale} className={inter.variable} suppressHydrationWarning>
       <head>
+        <meta name="theme-color" content="#f9fafb" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(structuredData),
+          }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  const theme = localStorage.getItem('theme') || 'system';
+                  const isDark = theme === 'dark' ||
+                    (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+                  document.documentElement.classList.remove('light', 'dark');
+                  document.documentElement.classList.add(isDark ? 'dark' : 'light');
+
+                  const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+                  if (metaThemeColor) {
+                    metaThemeColor.setAttribute('content', isDark ? '#0a0a0a' : '#f9fafb');
+                  }
+                } catch (e) {}
+              })();
+            `,
           }}
         />
       </head>

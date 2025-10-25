@@ -34,9 +34,9 @@ export function Skills() {
               {[...skills, ...skills, ...skills].map((skill, index) => (
                 <div
                   key={`${skill.name}-${index}`}
-                  className="flex-shrink-0 flex flex-col items-center justify-center gap-3 w-40 h-40 bg-gradient-to-br from-white to-gray-50 border-2 border-border rounded-2xl hover:shadow-xl hover:scale-105 hover:border-accent/30 transition-all p-4"
+                  className="flex-shrink-0 flex flex-col items-center justify-center gap-3 w-40 h-40 bg-gradient-to-br from-background to-muted/50 border-2 border-border rounded-2xl hover:shadow-xl hover:scale-105 hover:border-accent/30 transition-all p-4"
                 >
-                  <div className="p-2 bg-white rounded-lg shadow-sm">
+                  <div className="p-2 bg-background rounded-lg shadow-sm border border-border/50">
                     <TechLogo name={skill.name} className="w-12 h-12" />
                   </div>
                   <span className="text-sm font-semibold text-center text-foreground">

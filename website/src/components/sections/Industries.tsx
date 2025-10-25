@@ -19,40 +19,45 @@ export function Industries() {
       name: t('edtech.name'),
       description: t('edtech.description'),
       projects: t('edtech.projects'),
-      color: 'bg-blue-50 border-blue-200 hover:border-blue-400',
-      iconColor: 'text-blue-600',
+      color: 'border-blue-200 dark:border-blue-800 hover:border-blue-400 dark:hover:border-blue-600',
+      iconBg: 'bg-blue-50 dark:bg-blue-950/30',
+      iconColor: 'text-blue-600 dark:text-blue-400',
     },
     {
       icon: ShoppingBag,
       name: t('retail.name'),
       description: t('retail.description'),
       projects: t('retail.projects'),
-      color: 'bg-purple-50 border-purple-200 hover:border-purple-400',
-      iconColor: 'text-purple-600',
+      color: 'border-purple-200 dark:border-purple-800 hover:border-purple-400 dark:hover:border-purple-600',
+      iconBg: 'bg-purple-50 dark:bg-purple-950/30',
+      iconColor: 'text-purple-600 dark:text-purple-400',
     },
     {
       icon: TrendingUp,
       name: t('fintech.name'),
       description: t('fintech.description'),
       projects: t('fintech.projects'),
-      color: 'bg-green-50 border-green-200 hover:border-green-400',
-      iconColor: 'text-green-600',
+      color: 'border-green-200 dark:border-green-800 hover:border-green-400 dark:hover:border-green-600',
+      iconBg: 'bg-green-50 dark:bg-green-950/30',
+      iconColor: 'text-green-600 dark:text-green-400',
     },
     {
       icon: Home,
       name: t('realestate.name'),
       description: t('realestate.description'),
       projects: t('realestate.projects'),
-      color: 'bg-orange-50 border-orange-200 hover:border-orange-400',
-      iconColor: 'text-orange-600',
+      color: 'border-orange-200 dark:border-orange-800 hover:border-orange-400 dark:hover:border-orange-600',
+      iconBg: 'bg-orange-50 dark:bg-orange-950/30',
+      iconColor: 'text-orange-600 dark:text-orange-400',
     },
     {
       icon: Building2,
       name: t('government.name'),
       description: t('government.description'),
       projects: t('government.projects'),
-      color: 'bg-gray-50 border-gray-200 hover:border-gray-400',
-      iconColor: 'text-gray-600',
+      color: 'border-gray-200 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-600',
+      iconBg: 'bg-gray-50 dark:bg-gray-900/30',
+      iconColor: 'text-gray-600 dark:text-gray-400',
     },
   ];
 
@@ -79,11 +84,11 @@ export function Industries() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className={`p-6 bg-white border-2 rounded-xl transition-all hover:shadow-lg ${industry.color}`}
+                className={`p-6 bg-background border-2 rounded-xl transition-all hover:shadow-lg ${industry.color}`}
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div
-                    className={`p-3 rounded-lg ${industry.iconColor} bg-white`}
+                    className={`p-3 rounded-lg ${industry.iconColor} ${industry.iconBg}`}
                   >
                     <industry.icon size={24} />
                   </div>

@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { Link } from '@/i18n/navigation';
 import { Menu, X } from 'lucide-react';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { ThemeToggle } from './ThemeToggle';
 import { features } from '@/lib/constants/features';
 
 export function Navigation() {
@@ -96,6 +97,7 @@ export function Navigation() {
               );
             })}
             <LanguageSwitcher />
+            <ThemeToggle />
           </div>
 
           <button
@@ -137,7 +139,10 @@ export function Navigation() {
                 </Link>
               );
             })}
-            <LanguageSwitcher />
+            <div className="flex items-center gap-4">
+              <LanguageSwitcher />
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       )}
