@@ -2,8 +2,10 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Inter } from 'next/font/google';
+import { Metadata } from 'next';
 import { locales } from '../../../i18n';
 import { generateStructuredData } from '@/lib/seo/metadata';
+import { THEME_COLORS } from '@/lib/constants/theme';
 import '../globals.css';
 
 const inter = Inter({
@@ -14,6 +16,24 @@ const inter = Inter({
 
 export function generateStaticParams() {
   return locales.map(locale => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = 'https://tomasmorales.dev';
+
+  return {
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: Object.fromEntries(
+        locales.map(loc => [loc, `${baseUrl}/${loc}`])
+      ),
+    },
+  };
 }
 
 export default async function LocaleLayout({
@@ -35,7 +55,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={inter.variable} suppressHydrationWarning>
       <head>
-        <meta name="theme-color" content="#f9fafb" />
+        <meta name="theme-color" content={THEME_COLORS.light.background} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

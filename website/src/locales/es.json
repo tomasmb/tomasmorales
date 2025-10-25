@@ -238,5 +238,10 @@
   "footer": {
     "built": "Construido con Next.js 15 y Tailwind CSS",
     "openSource": "Santiago, Chile — Abierto a reubicación (preferencia SF)"
+  },
+  "error": {
+    "title": "¡Algo salió mal!",
+    "message": "Pedimos disculpas por las molestias. Ha ocurrido un error inesperado.",
+    "tryAgain": "Intentar de nuevo"
   }
 }

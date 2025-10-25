@@ -238,5 +238,10 @@
   "footer": {
     "built": "Built with Next.js 15 & Tailwind CSS",
     "openSource": "Santiago, Chile — Open to relocation (SF preferred)"
+  },
+  "error": {
+    "title": "Something went wrong!",
+    "message": "We apologize for the inconvenience. An unexpected error has occurred.",
+    "tryAgain": "Try again"
   }
 }

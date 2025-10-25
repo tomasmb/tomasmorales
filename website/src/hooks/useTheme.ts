@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { THEME_COLORS } from '@/lib/constants/theme';
 
 type Theme = 'light' | 'dark' | 'system';
 
@@ -33,7 +34,9 @@ export function useTheme() {
     if (metaThemeColor) {
       metaThemeColor.setAttribute(
         'content',
-        resolvedTheme === 'dark' ? '#0a0a0a' : '#f9fafb'
+        resolvedTheme === 'dark'
+          ? THEME_COLORS.dark.background
+          : THEME_COLORS.light.background
       );
     }
   };
