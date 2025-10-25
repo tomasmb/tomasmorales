@@ -15,8 +15,8 @@ export default function Error({
     console.error('Locale error boundary caught:', error);
   }, [error]);
 
-  // Note: If translations fail, fallback text is shown via the error boundary
-  const t = useTranslations.bind(null, 'error');
+  // Use translations with fallback
+  const t = useTranslations('error');
   const errorTitle = t('title');
   const errorMessage = t('message');
   const tryAgainText = t('tryAgain');
