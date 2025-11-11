@@ -45,7 +45,7 @@ export const baseMetadata: Metadata = {
       'AI Product Engineer and former CTO with 10+ years building generative AI systems. Shipped 50+ products from 0→1 across EdTech, FinTech, and more.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.jpg?v=2',
         width: 1200,
         height: 630,
         alt: 'Tomas Morales - AI Product Engineer',
@@ -57,7 +57,7 @@ export const baseMetadata: Metadata = {
     title: 'Tomas Morales | AI Product Engineer',
     description:
       'AI Product Engineer and former CTO with 10+ years building generative AI systems. Shipped 50+ products from 0→1 across EdTech, FinTech, and more.',
-    images: ['/og-image.jpg'],
+    images: ['/og-image.jpg?v=2'],
   },
   verification: {
     google: 'your-google-verification-code',
