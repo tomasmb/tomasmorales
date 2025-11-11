@@ -45,7 +45,7 @@ export const baseMetadata: Metadata = {
       'AI Product Engineer building generative AI systems that scale',
     images: [
       {
-        url: '/og-image.png',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Tomas Morales - AI Product Engineer',
@@ -57,7 +57,7 @@ export const baseMetadata: Metadata = {
     title: 'Tomas Morales | AI Product Engineer',
     description:
       'AI Product Engineer building generative AI systems that scale',
-    images: ['/og-image.png'],
+    images: ['/og-image.jpg'],
   },
   verification: {
     google: 'your-google-verification-code',
