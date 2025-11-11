@@ -42,7 +42,7 @@ export const baseMetadata: Metadata = {
     siteName: 'Tomas Morales Portfolio',
     title: 'Tomas Morales | AI Product Engineer',
     description:
-      'AI Product Engineer building generative AI systems that scale',
+      'AI Product Engineer and former CTO with 10+ years building generative AI systems. Shipped 50+ products from 0→1 across EdTech, FinTech, and more.',
     images: [
       {
         url: '/og-image.jpg',
@@ -56,7 +56,7 @@ export const baseMetadata: Metadata = {
     card: 'summary_large_image',
     title: 'Tomas Morales | AI Product Engineer',
     description:
-      'AI Product Engineer building generative AI systems that scale',
+      'AI Product Engineer and former CTO with 10+ years building generative AI systems. Shipped 50+ products from 0→1 across EdTech, FinTech, and more.',
     images: ['/og-image.jpg'],
   },
   verification: {
