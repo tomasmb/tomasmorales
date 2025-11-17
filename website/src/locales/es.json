@@ -174,6 +174,12 @@
     "intro": "Escribo sobre construir productos de IA, sistemas educativos y desempeño humano.",
     "posts": [
       {
+        "title": "La IA No Robará Nuestros Trabajos — Nos Devolverá Nuestro Tiempo",
+        "excerpt": "La IA ya está eliminando el trabajo repetitivo. Pero algo diferente viene con ella—la IA hace a las personas increíblemente productivas. ¿Qué pasaría si finalmente llegamos a un punto donde el trabajo deja de consumir toda nuestra vida?",
+        "date": "15 de Noviembre, 2025",
+        "url": "https://medium.com/gitconnected/ai-wont-steal-our-jobs-it-ll-give-us-our-time-back-9a1274f85269"
+      },
+      {
         "title": "Construye Más Rápido Sabiendo Cuándo NO Usar IA",
         "excerpt": "La forma más rápida de lograr impacto real con IA no es un prompt inteligente — es saber dónde la IA sobresale, dónde falla, y dónde usar sistemas determinísticos. Usa ejemplos sólidos, una especificación estable, y validación implacable.",
         "date": "31 de Octubre, 2025",
