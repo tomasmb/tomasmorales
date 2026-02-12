@@ -10,14 +10,14 @@
   },
   "hero": {
     "title": "Hola, soy Tomas Morales",
-    "subtitle": "un Ingeniero de Producto IA y ex-CTO que construye sistemas de IA generativa que escalan.",
-    "tag1": "Gestión de Productos IA",
+    "subtitle": "Fundador de Arbor Learning. Ingeniero de Producto IA y ex-CTO construyendo educación adaptativa basada en dominio.",
+    "tag1": "Aprendizaje Adaptativo",
     "tag2": "Ingeniería Full‑Stack",
     "tag3": "Sistemas de IA Generativa"
   },
   "about": {
     "title": "Sobre Mí",
-    "bio": "Soy un Ingeniero de Producto IA que ama construir sistemas que hacen a las personas más inteligentes. Después de 10 años en software, incluyendo cinco como CTO, he lanzado más de 50 productos desde cero. Ahora diseño infraestructura de aprendizaje impulsada por IA en 2 Hour Learning, combinando profundidad técnica con velocidad de producto.",
+    "bio": "Soy un Ingeniero de Producto IA que ama construir sistemas que hacen a las personas más inteligentes. Después de 10 años en software, incluyendo cinco como CTO, he lanzado más de 50 productos desde cero. Ahora lidero Arbor Learning, un PreU digital que convierte un diagnóstico en un camino claro y personalizado usando aprendizaje adaptativo, repetición espaciada y un árbol granular de habilidades.",
     "philosophy": {
       "title": "En Qué Creo",
       "quote1": "Creo que los grandes equipos construyen rápido porque confían profundamente.",
@@ -30,21 +30,36 @@
     "title": "Experiencia y Proyectos",
     "downloadCV": "Descargar CV",
     "current": {
-      "company": "2 Hour Learning",
-      "role": "Ingeniero de Producto IA (PM Senior / Líder de Ingeniería)",
-      "period": "Feb 2025 – Presente",
-      "location": "Remoto",
-      "description": "Diseño pipelines de IA generativa que transforman datos educativos en lecciones adaptativas y bancos de preguntas.",
+      "company": "Arbor Learning",
+      "role": "Fundador & CEO",
+      "period": "Feb 2026 – Presente",
+      "location": "Santiago, Chile",
+      "description": "Construyendo un PreU digital donde aprender, por fin, hace sentido. Arbor convierte un diagnóstico en un camino claro y personalizado usando un árbol granular de habilidades.",
       "highlights": [
-        "Construí Common Core Crawl — sistema completo de ingestión IA → QTI 3.0 con ~100% de precisión en tipos de preguntas soportados.",
-        "Diseñé motor de aprendizaje basado en grafos de conocimiento (Math Academy Way) para aprendizaje basado en dominio y repetición espaciada.",
-        "Único propietario técnico del sistema asistido por IA que transforma datos de pruebas estandarizadas.",
-        "Documenté estrategias de ingeniería de prompts después de experimentación extensiva.",
-        "Entregué sistemas end-to-end: arquitectura, código, despliegue e iteración a ritmo de startup."
+        "Diseñé sistema de aprendizaje mastery-based con micro-lecciones (10–20 min) basadas en ejemplos resueltos + práctica inmediata.",
+        "Construí motor de práctica adaptativa con feedback para enseñar y comprobar comprensión real.",
+        "Implementé repetición espaciada + interleaving para retención a largo plazo y transferencia.",
+        "Partiendo por PAES Matemática M1, expandiendo a nuevos módulos a medida que maduran.",
+        "Ownership completo: visión de producto, arquitectura, ingeniería y crecimiento."
       ],
-      "tech": "Next.js, Node.js, AWS, Terraform, MongoDB, PostgreSQL, GraphQL, OpenAI APIs, Anthropic APIs + más"
+      "tech": "Next.js, Node.js, AWS, PostgreSQL, OpenAI APIs, Anthropic APIs + más"
     },
     "past": [
+      {
+        "company": "Alpha Schools (2 Hour Learning)",
+        "role": "Ingeniero de Producto IA (PM Senior / Líder de Ingeniería)",
+        "period": "Feb 2025 – Feb 2026",
+        "location": "Remoto",
+        "description": "Diseñé y construí pipelines de IA para recolectar y transformar contenido educativo a datos estructurados QTI 3.0.",
+        "highlights": [
+          "Construí Common Core Crawl — sistema completo de ingestión IA → QTI 3.0 con ~100% de precisión en tipos de preguntas soportados.",
+          "Diseñé motor de aprendizaje basado en grafos de conocimiento (Math Academy Way) para aprendizaje basado en dominio y repetición espaciada.",
+          "Único propietario técnico del sistema asistido por IA que transforma datos de pruebas estandarizadas.",
+          "Documenté estrategias de ingeniería de prompts después de experimentación extensiva.",
+          "Entregué sistemas end-to-end: arquitectura, código, despliegue e iteración a ritmo de startup."
+        ],
+        "tech": "Next.js, Node.js, AWS, Terraform, MongoDB, PostgreSQL, GraphQL, OpenAI APIs, Anthropic APIs + más"
+      },
       {
         "company": "Tubesoft",
         "role": "CTO y Co-Fundador",
@@ -95,7 +110,7 @@
     "edtech": {
       "name": "EdTech",
       "description": "Plataformas de aprendizaje impulsadas por IA y sistemas educativos adaptativos",
-      "projects": "2 Hour Learning, Ztudia"
+      "projects": "Arbor Learning, Alpha Schools (2 Hour Learning), Ztudia"
     },
     "retail": {
       "name": "Retail",

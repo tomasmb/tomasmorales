@@ -7,7 +7,7 @@ export const baseMetadata: Metadata = {
     template: '%s | Tomas Morales',
   },
   description:
-    'AI Product Engineer and former CTO who builds generative AI systems. 10+ years experience delivering 0→1 products. Building AI-powered education infrastructure at 2 Hour Learning.',
+    'Founder of Arbor Learning. AI Product Engineer and former CTO with 10+ years delivering 50+ products from 0→1. Building mastery-based adaptive education.',
   keywords: [
     'AI Product Engineer',
     'AI PM',
@@ -86,7 +86,7 @@ export function generateStructuredData() {
     ],
     worksFor: {
       '@type': 'Organization',
-      name: '2 Hour Learning',
+      name: 'Arbor Learning',
     },
     alumniOf: {
       '@type': 'EducationalOrganization',

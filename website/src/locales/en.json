@@ -10,14 +10,14 @@
   },
   "hero": {
     "title": "Hi, I'm Tomas Morales",
-    "subtitle": "an AI Product Engineer and former CTO who builds generative AI systems that scale.",
-    "tag1": "AI Product Management",
+    "subtitle": "Founder of Arbor Learning. AI Product Engineer and former CTO building mastery-based adaptive education.",
+    "tag1": "Adaptive Learning",
     "tag2": "Full‑Stack Engineering",
     "tag3": "Generative AI Systems"
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm an AI Product Engineer who loves building systems that make people smarter. After 10 years in software, including five as CTO, I've launched 50+ products from 0→1. I now design AI‑powered learning infrastructure at 2 Hour Learning, blending technical depth with product speed.",
+    "bio": "I'm an AI Product Engineer who loves building systems that make people smarter. After 10 years in software, including five as CTO, I've launched 50+ products from 0→1. I now lead Arbor Learning, a digital PreU that turns a diagnostic into a clear, personalized mastery path using AI-powered adaptive learning, spaced repetition, and a granular skill tree.",
     "philosophy": {
       "title": "What I Believe",
       "quote1": "I believe great teams build fast because they trust deeply.",
@@ -30,21 +30,36 @@
     "title": "Experience & Projects",
     "downloadCV": "Download CV",
     "current": {
-      "company": "2 Hour Learning",
-      "role": "AI Product Engineer (Senior PM / Engineering Lead)",
-      "period": "Feb 2025 – Present",
-      "location": "Remote",
-      "description": "Designing generative AI pipelines that transform educational data into adaptive lessons and question banks.",
+      "company": "Arbor Learning",
+      "role": "Founder & CEO",
+      "period": "Feb 2026 – Present",
+      "location": "Santiago, Chile",
+      "description": "Building a digital PreU where learning finally makes sense. Arbor turns a diagnostic into a clear, personalized path using a granular skill tree.",
       "highlights": [
-        "Built Common Core Crawl — full AI ingestion → QTI 3.0 system with ~100% accuracy on supported question types.",
-        "Designed knowledge‑graph learning engine (Math Academy Way) for mastery-based learning and spaced repetition.",
-        "Sole technical owner of AI-assisted system that transforms standardized test data.",
-        "Documented prompt engineering strategies after extensive experimentation.",
-        "Delivered end-to-end systems: architecture, coding, deployment, and iteration at startup pace."
+        "Designed mastery-based learning system with micro-lessons (10–20 min) based on worked examples + immediate practice.",
+        "Built adaptive practice engine with feedback loops to teach and verify real comprehension.",
+        "Implemented spaced repetition + interleaving for long-term retention and transfer.",
+        "Starting with PAES Matemática M1, expanding to new modules as they mature.",
+        "End-to-end ownership: product vision, architecture, engineering, and growth."
       ],
-      "tech": "Next.js, Node.js, AWS, Terraform, MongoDB, PostgreSQL, GraphQL, OpenAI APIs, Anthropic APIs + more"
+      "tech": "Next.js, Node.js, AWS, PostgreSQL, OpenAI APIs, Anthropic APIs + more"
     },
     "past": [
+      {
+        "company": "Alpha Schools (2 Hour Learning)",
+        "role": "AI Product Engineer (Senior PM / Engineering Lead)",
+        "period": "Feb 2025 – Feb 2026",
+        "location": "Remote",
+        "description": "Designed and built AI pipelines for collecting and transforming educational content into structured QTI 3.0 data.",
+        "highlights": [
+          "Built Common Core Crawl — full AI ingestion → QTI 3.0 system with ~100% accuracy on supported question types.",
+          "Designed knowledge‑graph learning engine (Math Academy Way) for mastery-based learning and spaced repetition.",
+          "Sole technical owner of AI-assisted system that transforms standardized test data.",
+          "Documented prompt engineering strategies after extensive experimentation.",
+          "Delivered end-to-end systems: architecture, coding, deployment, and iteration at startup pace."
+        ],
+        "tech": "Next.js, Node.js, AWS, Terraform, MongoDB, PostgreSQL, GraphQL, OpenAI APIs, Anthropic APIs + more"
+      },
       {
         "company": "Tubesoft",
         "role": "CTO & Co-Founder",
@@ -95,7 +110,7 @@
     "edtech": {
       "name": "EdTech",
       "description": "AI-powered learning platforms and adaptive education systems",
-      "projects": "2 Hour Learning, Ztudia"
+      "projects": "Arbor Learning, Alpha Schools (2 Hour Learning), Ztudia"
     },
     "retail": {
       "name": "Retail",
