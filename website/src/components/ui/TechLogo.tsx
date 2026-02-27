@@ -1,11 +1,30 @@
 import { Icon } from '@iconify/react';
+import Image from 'next/image';
 
 interface TechLogoProps {
   name: string;
   className?: string;
 }
 
+/** Local SVG files in /public for logos not available on iconify */
+const localLogoMap: Record<string, string> = {
+  openclaw: '/openclaw.svg',
+};
+
 export function TechLogo({ name, className = 'w-12 h-12' }: TechLogoProps) {
+  const localLogo = localLogoMap[name.toLowerCase()];
+  if (localLogo) {
+    return (
+      <Image
+        src={localLogo}
+        alt={name}
+        width={48}
+        height={48}
+        className={className}
+      />
+    );
+  }
+
   const logoMap: Record<string, string> = {
     aws: 'simple-icons:amazonaws',
     gcp: 'simple-icons:googlecloud',
