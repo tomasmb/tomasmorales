@@ -3,6 +3,8 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { locales } from '../../../i18n';
 import { generateStructuredData } from '@/lib/seo/metadata';
 import { THEME_COLORS } from '@/lib/constants/theme';
@@ -88,6 +90,8 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

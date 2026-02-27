@@ -8,6 +8,7 @@ import { LanguageSwitcher } from './LanguageSwitcher';
 import { ThemeToggle } from './ThemeToggle';
 import { features } from '@/lib/constants/features';
 
+
 export function Navigation() {
   const t = useTranslations('nav');
   const [isOpen, setIsOpen] = useState(false);
@@ -30,40 +31,13 @@ export function Navigation() {
 
   const navItems = [
     { key: 'home', href: '/', type: 'link' as const },
-    {
-      key: 'about',
-      href: '#about',
-      type: 'hash' as const,
-    },
-    {
-      key: 'experience',
-      href: '#experience',
-      type: 'hash' as const,
-    },
-    ...(features.projects
-      ? [
-          {
-            key: 'projects',
-            href: '#projects',
-            type: 'hash' as const,
-          },
-        ]
+    { key: 'about', href: '#about', type: 'hash' as const },
+    { key: 'arbor', href: '#arbor', type: 'hash' as const },
+    { key: 'experience', href: '#experience', type: 'hash' as const },
+    ...(features.blog
+      ? [{ key: 'blog', href: '#blog', type: 'hash' as const }]
       : []),
-    {
-      key: 'blog',
-      href: '#blog',
-      type: 'hash' as const,
-    },
-    {
-      key: 'beliefs',
-      href: '#beliefs',
-      type: 'hash' as const,
-    },
-    {
-      key: 'contact',
-      href: '#contact',
-      type: 'hash' as const,
-    },
+    { key: 'contact', href: '#contact', type: 'hash' as const },
   ];
 
   return (

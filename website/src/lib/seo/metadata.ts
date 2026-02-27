@@ -3,20 +3,21 @@ import { Metadata } from 'next';
 export const baseMetadata: Metadata = {
   metadataBase: new URL('https://tomasmorales.dev'),
   title: {
-    default: 'Tomas Morales | AI Product Engineer',
+    default: 'Tomas Morales | Founder of Arbor Learning',
     template: '%s | Tomas Morales',
   },
   description:
-    'Founder of Arbor Learning. AI Product Engineer and former CTO with 10+ years delivering 50+ products from 0→1. Building mastery-based adaptive education.',
+    'Founder of Arbor Learning — an AI-powered adaptive PreU helping Chilean students master the PAES. 10+ years shipping products, former CTO, building the future of education.',
   keywords: [
-    'AI Product Engineer',
-    'AI PM',
-    'Generative AI',
-    'Machine Learning',
-    'Product Management',
-    'Full-Stack Engineer',
-    'CTO',
+    'Arbor Learning',
+    'Tomas Morales',
+    'PreU digital',
+    'PAES',
+    'adaptive education',
     'EdTech',
+    'AI Product Engineer',
+    'Generative AI',
+    'Full-Stack Engineer',
     'Next.js',
     'React',
     'TypeScript',
@@ -39,28 +40,25 @@ export const baseMetadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://tomasmorales.dev',
-    siteName: 'Tomas Morales Portfolio',
-    title: 'Tomas Morales | AI Product Engineer',
+    siteName: 'Tomas Morales',
+    title: 'Tomas Morales | Founder of Arbor Learning',
     description:
-      'AI Product Engineer and former CTO with 10+ years building generative AI systems. Shipped 50+ products from 0→1 across EdTech, FinTech, and more.',
+      'Building the future of education with Arbor Learning — an AI-powered adaptive PreU for PAES mastery. 10k+ questions, 200+ lessons per subject, all AI-generated and validated.',
     images: [
       {
         url: '/og-image.jpg?v=2',
         width: 1200,
         height: 630,
-        alt: 'Tomas Morales - AI Product Engineer',
+        alt: 'Tomas Morales - Founder of Arbor Learning',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tomas Morales | AI Product Engineer',
+    title: 'Tomas Morales | Founder of Arbor Learning',
     description:
-      'AI Product Engineer and former CTO with 10+ years building generative AI systems. Shipped 50+ products from 0→1 across EdTech, FinTech, and more.',
+      'Building the future of education with Arbor Learning — an AI-powered adaptive PreU for PAES mastery. 10k+ questions, 200+ lessons per subject, all AI-generated and validated.',
     images: ['/og-image.jpg?v=2'],
-  },
-  verification: {
-    google: 'your-google-verification-code',
   },
   icons: {
     icon: [
@@ -76,17 +74,20 @@ export function generateStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Tomas Morales',
-    jobTitle: 'AI Product Engineer',
+    jobTitle: 'Founder & CEO',
     description:
-      'AI Product Engineer and former CTO with 10+ years of experience',
+      'Founder of Arbor Learning, an AI-powered adaptive PreU for PAES mastery. Former CTO with 10+ years building products across EdTech, FinTech, and more.',
     url: 'https://tomasmorales.dev',
     sameAs: [
       'https://www.linkedin.com/in/tomasmb1',
       'https://github.com/tomasmb',
+      'https://preu.arbor.school',
     ],
     worksFor: {
       '@type': 'Organization',
       name: 'Arbor Learning',
+      url: 'https://preu.arbor.school',
+      foundingDate: '2026',
     },
     alumniOf: {
       '@type': 'EducationalOrganization',

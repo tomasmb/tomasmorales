@@ -2,29 +2,30 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre Mí",
+    "arbor": "Arbor",
     "experience": "Experiencia",
-    "projects": "Proyectos",
     "blog": "Blog",
-    "beliefs": "Principios",
     "contact": "Contacto"
   },
   "hero": {
     "title": "Hola, soy Tomas Morales",
-    "subtitle": "Fundador de Arbor Learning. Ingeniero de Producto IA y ex-CTO construyendo educación adaptativa basada en dominio.",
+    "subtitle": "Estoy construyendo el futuro de la educación con Arbor Learning — un PreU digital con IA que convierte un diagnóstico en un camino personalizado de dominio. 10+ años creando productos, ahora enfocado en ayudar a estudiantes a tener éxito.",
     "tag1": "Aprendizaje Adaptativo",
     "tag2": "Ingeniería Full‑Stack",
-    "tag3": "Sistemas de IA Generativa"
+    "tag3": "Sistemas de IA Generativa",
+    "ctaPrimary": "Conoce Arbor",
+    "ctaSecondary": "Colaboremos"
   },
   "about": {
     "title": "Sobre Mí",
-    "bio": "Soy un Ingeniero de Producto IA que ama construir sistemas que hacen a las personas más inteligentes. Después de 10 años en software, incluyendo cinco como CTO, he lanzado más de 50 productos desde cero. Ahora lidero Arbor Learning, un PreU digital que convierte un diagnóstico en un camino claro y personalizado usando aprendizaje adaptativo, repetición espaciada y un árbol granular de habilidades.",
+    "bio": "La educación en Chile está fallando para demasiados estudiantes. Los PreUs tradicionales entregan el mismo contenido a todos, ignorando las brechas únicas de cada estudiante. Vi este problema de primera mano — y después de 10 años creando más de 50 productos como ingeniero y CTO, decidí solucionarlo. Arbor Learning es un PreU digital impulsado por IA que diagnostica dónde está cada estudiante y construye un camino personalizado hacia el dominio. Con 10k+ preguntas validadas y 200+ lecciones por asignatura, estamos haciendo que la preparación PAES sea verdaderamente adaptativa.",
     "philosophy": {
       "title": "En Qué Creo",
-      "quote1": "Creo que los grandes equipos construyen rápido porque confían profundamente.",
-      "quote2": "Me importa el impacto, la claridad y el arte de construir.",
+      "quote1": "Los grandes equipos construyen rápido porque confían profundamente.",
+      "quote2": "El impacto, la claridad y el arte de construir son lo que más importa.",
       "quote3": "El trabajo debería sentirse como flujo, no fricción."
     },
-    "funFact": "Cuando no estoy construyendo, hago surf, ciclismo o splitboard en los Andes."
+    "funFact": "Cuando no estoy construyendo Arbor, hago surf, ciclismo o splitboard en los Andes."
   },
   "experience": {
     "title": "Experiencia y Proyectos",
@@ -104,91 +105,6 @@
   "skills": {
     "title": "Tecnologías y Herramientas"
   },
-  "industries": {
-    "title": "Industrias en las que he Trabajado",
-    "subtitle": "Más de 10 años construyendo productos en diversos sectores, desde educación hasta finanzas.",
-    "edtech": {
-      "name": "EdTech",
-      "description": "Plataformas de aprendizaje impulsadas por IA y sistemas educativos adaptativos",
-      "projects": "Arbor Learning, Alpha Schools (2 Hour Learning), Ztudia"
-    },
-    "retail": {
-      "name": "Retail",
-      "description": "Plataformas de e-commerce y sistemas de gestión de inventario",
-      "projects": "Liquidos, Tamango, y otros"
-    },
-    "fintech": {
-      "name": "FinTech",
-      "description": "Plataformas de trading, sistemas de arbitraje cripto y herramientas de análisis financiero",
-      "projects": "TIL (tradesilike.com), Bot de arbitraje cripto (Buda/Binance)"
-    },
-    "realestate": {
-      "name": "Bienes Raíces",
-      "description": "Agregación de datos de propiedades y análisis de mercado",
-      "projects": "Scraper en Go con miles de actualizaciones de precios diarias"
-    },
-    "agtech": {
-      "name": "AgTech",
-      "description": "Redes de sensores IoT para datos de suelo, clima y cultivos para optimizar recursos y rendimiento agrícola",
-      "projects": "Plataforma de agricultura de precisión CDTEC"
-    },
-    "logistics": {
-      "name": "Logística",
-      "description": "Gestión de flotas, optimización de rutas y software de cadena de suministro",
-      "projects": "Jack, Bio Bio, y sistemas logísticos de retail en Tubesoft"
-    }
-  },
-  "projects": {
-    "title": "Proyectos Destacados",
-    "subtitle": "Una selección de proyectos que demuestran mi profundidad técnica y enfoque de resolución de problemas en EdTech, FinTech y sistemas de alto rendimiento.",
-    "items": [
-      {
-        "slug": "arbor-learning",
-        "title": "Arbor Learning",
-        "period": "2026",
-        "summary": "Plataforma PreU adaptativa impulsada por IA que convierte un diagnóstico en un camino personalizado de dominio para la preparación PAES, con 10k+ preguntas y 200+ lecciones por asignatura.",
-        "problem": "Los estudiantes chilenos que se preparan para la PAES carecen de herramientas verdaderamente adaptativas. Los PreUs tradicionales ofrecen contenido genérico, ignorando las brechas únicas de cada estudiante. No existe un sistema que diagnostique debilidades y construya un camino personalizado hacia el dominio.",
-        "solution": "Construí Arbor Learning — un PreU digital que parte con un diagnóstico y genera un camino de aprendizaje claro y personalizado. Usa un árbol granular de habilidades con micro-lecciones (10–20 min) basadas en ejemplos resueltos y práctica inmediata. Las 10k+ preguntas y 200+ lecciones por asignatura son generadas y validadas por IA. Implementa repetición espaciada e interleaving para retención a largo plazo.",
-        "impact": [
-          "10.000+ preguntas generadas y validadas por IA por asignatura",
-          "200+ lecciones estructuradas por asignatura con secuenciación adaptativa",
-          "Caminos de aprendizaje optimizados para la PAES con progresión basada en dominio"
-        ],
-        "tech": ["Next.js", "TypeScript", "PostgreSQL", "Neon", "Vercel", "OpenAI APIs", "Gemini APIs", "Anthropic APIs"],
-        "links": [{ "label": "Visitar Arbor", "url": "https://preu.arbor.school" }]
-      },
-      {
-        "slug": "crypto-arbitrage-bot",
-        "title": "Bot de Arbitraje Cripto",
-        "period": "2020",
-        "summary": "Bot automatizado de trading cripto explotando diferencias de precio entre exchanges Binance y Buda usando Golang para rendimiento en microsegundos.",
-        "problem": "Los exchanges de criptomonedas a menudo tienen pequeñas diferencias de precio (spreads) explotables entre mercados. Rastrear y ejecutar operaciones manualmente lo suficientemente rápido para aprovechar estas ineficiencias es imposible para los humanos.",
-        "solution": "Construí un bot de arbitraje completamente automatizado usando Golang para rendimiento de baja latencia. Un backoffice ligero en Node.js + React.js permitía a los usuarios configurar parámetros. El bot consultaba continuamente los precios spot de Binance y Buda en microsegundos, ejecutando instantáneamente pares de compra/venta cuando los spreads excedían los umbrales.",
-        "impact": [
-          "Detectó consistentemente spreads rentables en mercados volátiles",
-          "Ejecutó cientos de micro-operaciones diarias",
-          "Demostró manejo de concurrencia de alto rendimiento en Go"
-        ],
-        "tech": ["Golang", "Node.js", "React.js", "GCP", "PostgreSQL"],
-        "links": []
-      },
-      {
-        "slug": "tradesilike",
-        "title": "TradesILike (TIL)",
-        "period": "2024",
-        "summary": "Plataforma de simulación financiera en tiempo real con datos en vivo de más de 2000 activos, con seguimiento de carteras y tablas de clasificación competitivas.",
-        "problem": "La educación en inversiones es a menudo teórica y el paper trading sin riesgo carece de realismo. Los estudiantes necesitaban una forma de simular carteras reales contra datos en vivo y comparar sus decisiones con otros sin riesgo financiero.",
-        "solution": "Construí TradesILike.com — una plataforma de simulación financiera donde los usuarios crean carteras y compiten en tiempo real. Obtenía datos de más de 2000 activos cada 5 segundos vía GCP Cloud Functions, almacenando precios y estados de cartera en colecciones TimeSeries de MongoDB. El frontend en React.js visualizaba rendimiento de cartera, retornos por acción y tablas de clasificación.",
-        "impact": [
-          "Ayudó a los usuarios a aprender gestión de carteras mediante la práctica",
-          "Fomentó aprendizaje financiero competitivo y gamificado",
-          "Manejó ingesta de datos en tiempo real a escala eficientemente"
-        ],
-        "tech": ["Node.js", "React.js", "MongoDB", "GCP"],
-        "links": []
-      }
-    ]
-  },
   "blog": {
     "title": "Blog",
     "intro": "Escribo sobre construir productos de IA, sistemas educativos y desempeño humano.",
@@ -213,44 +129,57 @@
       }
     ]
   },
-  "beliefs": {
-    "title": "Qué me Impulsa",
-    "intro": "Estoy obsesionado con sistemas que mejoran cómo las personas aprenden y se desempeñan. Ya sea en aulas o en un sendero de bicicleta, amo empujar límites y diseñar bucles de retroalimentación que hacen que el crecimiento sea inevitable.",
-    "principles": [
+  "arbor": {
+    "title": "Cómo Funciona Arbor",
+    "subtitle": "Un camino más inteligente hacia el dominio PAES — personalizado, adaptativo e impulsado por IA.",
+    "steps": [
       {
-        "statement": "Impacto > actividad.",
-        "context": "Mido el éxito por resultados, no por producción. Construir lo correcto importa más que construir muchas cosas."
+        "label": "Diagnóstico",
+        "description": "Los estudiantes realizan un test diagnóstico que mapea sus fortalezas y brechas en cada habilidad de la asignatura."
       },
       {
-        "statement": "La cultura no son beneficios — es claridad, confianza y ritmo.",
-        "context": "Los grandes equipos se mueven rápido porque se comunican claramente y confían profundamente entre sí."
+        "label": "Camino Personalizado",
+        "description": "Arbor construye un camino de aprendizaje personalizado basado en las debilidades únicas de cada estudiante usando un árbol granular de habilidades."
       },
       {
-        "statement": "El pensamiento sistémico supera al esfuerzo heroico.",
-        "context": "El progreso sostenible viene de diseñar mejores procesos, no de trabajar más horas."
+        "label": "Práctica Adaptativa",
+        "description": "Micro-lecciones (10–20 min) con ejemplos resueltos y práctica inmediata, ajustando la dificultad en tiempo real."
       },
       {
-        "statement": "Balance vida-trabajo + deportes = el mejor hack de productividad.",
-        "context": "La condición física no está separada del rendimiento profesional—es la base. Los deportes despejan tu mente, aumentan tu energía, y te hacen más feliz y productivo."
+        "label": "Dominio",
+        "description": "Repetición espaciada e interleaving aseguran retención a largo plazo. Los estudiantes avanzan solo cuando realmente comprenden."
       }
-    ]
+    ],
+    "metrics": [
+      { "value": "10.000+", "label": "Preguntas validadas por IA por asignatura" },
+      { "value": "200+", "label": "Lecciones estructuradas por asignatura" },
+      { "value": "100%", "label": "Contenido generado por IA y validado por expertos" }
+    ],
+    "cta": "Prueba Arbor Ahora"
   },
   "testimonials": {
     "title": "Lo Que Dicen",
     "items": [
-      {
-        "name": "Patricio Orrego",
-        "title": "Partner & CCO @ Tubesoft",
-        "relationship": "Trabajaron juntos",
-        "image": "/pato.jpeg",
-        "quote": "Tomás es un profesional muy amable que se toma sus responsabilidades muy en serio. Aprende muy rápido, lo que le ayuda a comprender problemas y desarrollar soluciones de manera muy eficiente. Es una persona con valores sólidos en quien puedes confiar."
-      },
       {
         "name": "Carlos Córdova",
         "title": "Director @ Preuniversitario Carez y Córdova",
         "relationship": "Cliente",
         "image": "/carlos.jpeg",
         "quote": "Tomás destaca tanto en lo técnico como en visión estratégica. Esto fue vital en la creación de nuestra plataforma inteligente que genera material personalizado. Lo recomiendo sin dudarlo por sus sólidos principios, fortaleza técnica y tremenda orientación a resultados."
+      },
+      {
+        "name": "Amanda Shipka",
+        "title": "Full Stack Builder @ Alpha",
+        "relationship": "Trabajaron juntos en Alpha School",
+        "image": "/amanda.jpeg",
+        "quote": "Tuve el placer de trabajar junto a Tomás en Alpha School, y es alguien a quien recomendaría sin dudarlo. Es un ingeniero genuinamente talentoso que entrega trabajo de alta calidad rápidamente, pero lo que realmente lo distingue es su carácter. Es una de las personas más amables y orientadas al equipo con las que he trabajado. Siempre fue el primero en ofrecer ayuda, incluso cuando algo no era su responsabilidad. También es profundamente apasionado por la educación, y no sorprende que ahora esté construyendo herramientas para ayudar a los estudiantes a tener éxito. Cualquier equipo tendría suerte de tenerlo."
+      },
+      {
+        "name": "Patricio Orrego",
+        "title": "Partner & CCO @ Tubesoft",
+        "relationship": "Trabajaron juntos",
+        "image": "/pato.jpeg",
+        "quote": "Tomás es un profesional muy amable que se toma sus responsabilidades muy en serio. Aprende muy rápido, lo que le ayuda a comprender problemas y desarrollar soluciones de manera muy eficiente. Es una persona con valores sólidos en quien puedes confiar."
       },
       {
         "name": "Ariel Lobos",
@@ -265,25 +194,20 @@
         "relationship": "Reportaba a Tomás",
         "image": "/day.jpeg",
         "quote": "Trabajé con Tomás en Tubesoft en mi primera experiencia en el área, y fue muy positiva. Siempre mostró claridad en objetivos y prioridades, explicando las cosas de manera simple incluso bajo presión. Escucha, apoya y crea un ambiente seguro para aportar ideas. Su liderazgo motiva y hace que el equipo funcione mejor."
-      },
-      {
-        "name": "Amanda Shipka",
-        "title": "Full Stack Builder @ Alpha",
-        "relationship": "Trabajaron juntos en Alpha School",
-        "image": "/amanda.jpeg",
-        "quote": "Tuve el placer de trabajar junto a Tomás en Alpha School, y es alguien a quien recomendaría sin dudarlo. Es un ingeniero genuinamente talentoso que entrega trabajo de alta calidad rápidamente, pero lo que realmente lo distingue es su carácter. Es una de las personas más amables y orientadas al equipo con las que he trabajado. Siempre fue el primero en ofrecer ayuda, incluso cuando algo no era su responsabilidad. También es profundamente apasionado por la educación, y no sorprende que ahora esté construyendo herramientas para ayudar a los estudiantes a tener éxito. Cualquier equipo tendría suerte de tenerlo."
       }
     ]
   },
   "contact": {
     "title": "Construyamos Juntos",
+    "subtitle": "Ya seas inversionista, colegio, PreU o municipalidad buscando llevar aprendizaje adaptativo a tus estudiantes — me encantaría conversar.",
+    "arborCta": "Lleva Arbor a tu institución",
     "email": "tomas.morales.ber@gmail.com",
     "linkedin": "linkedin.com/in/tomasmb1",
     "github": "github.com/tomasmb"
   },
   "footer": {
     "built": "Construido con Next.js 15 y Tailwind CSS",
-    "openSource": "Santiago, Chile — Abierto a reubicación (preferencia SF)"
+    "openSource": "Construyendo el futuro de la educación desde Santiago, Chile"
   },
   "error": {
     "title": "¡Algo salió mal!",

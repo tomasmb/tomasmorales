@@ -8,7 +8,18 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-foreground/60">
           <p>{t('built')}</p>
-          <p>{t('openSource')}</p>
+          <div className="flex items-center gap-4">
+            <a
+              href="https://preu.arbor.school"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent transition-colors"
+            >
+              preu.arbor.school
+            </a>
+            <span>·</span>
+            <p>{t('openSource')}</p>
+          </div>
         </div>
       </div>
     </footer>

@@ -55,9 +55,9 @@ export function Experience() {
               href="/cv_tomas_morales.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors text-sm"
+              className="flex items-center gap-2 px-3 py-1.5 text-foreground/50 border border-border rounded-lg hover:bg-foreground/5 hover:text-foreground/70 transition-colors text-xs"
             >
-              <Download size={16} />
+              <Download size={14} />
               {t('downloadCV')}
             </a>
           </div>

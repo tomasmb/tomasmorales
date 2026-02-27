@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Github, Mail, ArrowRight } from 'lucide-react';
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -53,7 +53,25 @@ export function Hero() {
               ))}
             </div>
 
-            <div className="flex gap-4 pt-4">
+            <div className="flex flex-wrap gap-3 pt-2">
+              <a
+                href="https://preu.arbor.school"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors font-medium"
+              >
+                {t('ctaPrimary')}
+                <ArrowRight size={18} />
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 px-6 py-3 border-2 border-accent/30 text-accent rounded-lg hover:bg-accent/10 transition-colors font-medium"
+              >
+                {t('ctaSecondary')}
+              </a>
+            </div>
+
+            <div className="flex gap-4 pt-2">
               <a
                 href="https://www.linkedin.com/in/tomasmb1"
                 target="_blank"
