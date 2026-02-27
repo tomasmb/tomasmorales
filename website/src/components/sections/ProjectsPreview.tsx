@@ -43,9 +43,22 @@ export function ProjectsPreview() {
                 >
                   <div className="h-full p-6 border border-border rounded-xl bg-background/50 backdrop-blur-sm">
                     <div className="mb-4">
-                      <h3 className="text-xl font-semibold mb-2">
-                        {projectData.title}
-                      </h3>
+                      <div className="flex items-start justify-between gap-2 mb-2">
+                        <h3 className="text-xl font-semibold">
+                          {projectData.title}
+                        </h3>
+                        {projectData.links && projectData.links.length > 0 && (
+                          <a
+                            href={projectData.links[0].url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 shrink-0 px-2.5 py-1 text-xs font-medium text-accent border border-accent/30 rounded-full hover:bg-accent/10 transition-colors"
+                          >
+                            {projectData.links[0].label}
+                            <ExternalLink size={12} />
+                          </a>
+                        )}
+                      </div>
                       {projectData.period && (
                         <p className="text-sm text-foreground/50 mb-3">
                           {projectData.period}
@@ -74,22 +87,6 @@ export function ProjectsPreview() {
                       )}
                     </div>
 
-                    {projectData.links && projectData.links.length > 0 && (
-                      <div className="flex gap-3 mt-4 pt-4 border-t border-border">
-                        {projectData.links.map((link, i) => (
-                          <a
-                            key={i}
-                            href={link.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent/80 transition-colors"
-                          >
-                            {link.label}
-                            <ExternalLink size={14} />
-                          </a>
-                        ))}
-                      </div>
-                    )}
                   </div>
                 </motion.div>
               );
