@@ -31,6 +31,10 @@ export function Testimonials() {
                 quote: string;
               };
 
+              const isLastOdd =
+                index === testimonials.length - 1 &&
+                testimonials.length % 2 !== 0;
+
               return (
                 <motion.div
                   key={index}
@@ -38,7 +42,9 @@ export function Testimonials() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="bg-background rounded-2xl p-8 border border-border shadow-sm"
+                  className={`bg-background rounded-2xl p-8 border border-border shadow-sm${
+                    isLastOdd ? ' md:col-span-2 md:max-w-2xl md:mx-auto' : ''
+                  }`}
                 >
                   <div className="flex items-start gap-4 mb-4">
                     <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
