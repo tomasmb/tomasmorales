@@ -9,6 +9,7 @@ interface TechLogoProps {
 /** Local SVG files in /public for logos not available on iconify */
 const localLogoMap: Record<string, string> = {
   openclaw: '/openclaw.svg',
+  neon: '/neondb.svg',
 };
 
 export function TechLogo({ name, className = 'w-12 h-12' }: TechLogoProps) {
@@ -20,7 +21,7 @@ export function TechLogo({ name, className = 'w-12 h-12' }: TechLogoProps) {
         alt={name}
         width={48}
         height={48}
-        className={className}
+        className={`${className} grayscale brightness-0 dark:invert`}
       />
     );
   }
@@ -47,7 +48,6 @@ export function TechLogo({ name, className = 'w-12 h-12' }: TechLogoProps) {
     tailwind: 'simple-icons:tailwindcss',
     gemini: 'simple-icons:googlegemini',
     vercel: 'simple-icons:vercel',
-    neon: 'simple-icons:neon',
   };
 
   const icon = logoMap[name.toLowerCase()];

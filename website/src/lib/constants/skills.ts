@@ -13,7 +13,7 @@ export const skills = [
   { name: 'Anthropic', displayName: 'Claude' },
   { name: 'Gemini', displayName: 'Gemini' },
   { name: 'Vercel', displayName: 'Vercel' },
-  { name: 'Neon', displayName: 'Neon' },
+  { name: 'Neon', displayName: 'Neon DB' },
   { name: 'OpenClaw', displayName: 'OpenClaw' },
   { name: 'PostgreSQL', displayName: 'PostgreSQL' },
   { name: 'MongoDB', displayName: 'MongoDB' },
