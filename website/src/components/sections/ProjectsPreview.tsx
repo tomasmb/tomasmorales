@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import { ExternalLink } from 'lucide-react';
 
 export function ProjectsPreview() {
   const t = useTranslations('projects');
@@ -28,6 +29,7 @@ export function ProjectsPreview() {
                 period?: string;
                 summary?: string;
                 tech: string[];
+                links?: { label: string; url: string }[];
               };
 
               return (
@@ -71,6 +73,23 @@ export function ProjectsPreview() {
                         </span>
                       )}
                     </div>
+
+                    {projectData.links && projectData.links.length > 0 && (
+                      <div className="flex gap-3 mt-4 pt-4 border-t border-border">
+                        {projectData.links.map((link, i) => (
+                          <a
+                            key={i}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent/80 transition-colors"
+                          >
+                            {link.label}
+                            <ExternalLink size={14} />
+                          </a>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </motion.div>
               );

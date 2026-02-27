@@ -26,6 +26,9 @@ export function TechLogo({ name, className = 'w-12 h-12' }: TechLogoProps) {
     kubernetes: 'simple-icons:kubernetes',
     lambda: 'simple-icons:awslambda',
     tailwind: 'simple-icons:tailwindcss',
+    gemini: 'simple-icons:googlegemini',
+    vercel: 'simple-icons:vercel',
+    neon: 'simple-icons:neon',
   };
 
   const icon = logoMap[name.toLowerCase()];

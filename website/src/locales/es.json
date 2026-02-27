@@ -42,7 +42,7 @@
         "Partiendo por PAES Matemática M1, expandiendo a nuevos módulos a medida que maduran.",
         "Ownership completo: visión de producto, arquitectura, ingeniería y crecimiento."
       ],
-      "tech": "Next.js, Node.js, AWS, PostgreSQL, OpenAI APIs, Anthropic APIs + más"
+      "tech": "Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI APIs, Gemini APIs, Anthropic APIs + más"
     },
     "past": [
       {
@@ -140,8 +140,23 @@
   },
   "projects": {
     "title": "Proyectos Destacados",
-    "subtitle": "Una selección de proyectos que demuestran mi profundidad técnica y enfoque de resolución de problemas en FinTech, EdTech y sistemas distribuidos.",
+    "subtitle": "Una selección de proyectos que demuestran mi profundidad técnica y enfoque de resolución de problemas en EdTech, FinTech y sistemas de alto rendimiento.",
     "items": [
+      {
+        "slug": "arbor-learning",
+        "title": "Arbor Learning",
+        "period": "2026",
+        "summary": "Plataforma PreU adaptativa impulsada por IA que convierte un diagnóstico en un camino personalizado de dominio para la preparación PAES, con 10k+ preguntas y 200+ lecciones por asignatura.",
+        "problem": "Los estudiantes chilenos que se preparan para la PAES carecen de herramientas verdaderamente adaptativas. Los PreUs tradicionales ofrecen contenido genérico, ignorando las brechas únicas de cada estudiante. No existe un sistema que diagnostique debilidades y construya un camino personalizado hacia el dominio.",
+        "solution": "Construí Arbor Learning — un PreU digital que parte con un diagnóstico y genera un camino de aprendizaje claro y personalizado. Usa un árbol granular de habilidades con micro-lecciones (10–20 min) basadas en ejemplos resueltos y práctica inmediata. Las 10k+ preguntas y 200+ lecciones por asignatura son generadas y validadas por IA. Implementa repetición espaciada e interleaving para retención a largo plazo.",
+        "impact": [
+          "10.000+ preguntas generadas y validadas por IA por asignatura",
+          "200+ lecciones estructuradas por asignatura con secuenciación adaptativa",
+          "Caminos de aprendizaje optimizados para la PAES con progresión basada en dominio"
+        ],
+        "tech": ["Next.js", "TypeScript", "PostgreSQL", "Neon", "Vercel", "OpenAI APIs", "Gemini APIs", "Anthropic APIs"],
+        "links": [{ "label": "Visitar Arbor", "url": "https://preu.arbor.school" }]
+      },
       {
         "slug": "crypto-arbitrage-bot",
         "title": "Bot de Arbitraje Cripto",
@@ -155,21 +170,6 @@
           "Demostró manejo de concurrencia de alto rendimiento en Go"
         ],
         "tech": ["Golang", "Node.js", "React.js", "GCP", "PostgreSQL"],
-        "links": []
-      },
-      {
-        "slug": "ztudia",
-        "title": "Ztudia",
-        "period": "2024",
-        "summary": "Plataforma de aprendizaje adaptativo impulsada por IA generando ejercicios personalizados usando modelos GPT con pipelines de validación.",
-        "problem": "Los estudiantes carecen de herramientas de aprendizaje adaptativo que se enfoquen en lo que personalmente necesitan dominar para sus exámenes. Los sistemas existentes no generan ejercicios personalizados vinculados a la comprensión conceptual.",
-        "solution": "Creé una plataforma experimental de aprendizaje impulsada por IA que genera ejercicios personalizados por tema/subtema. Construida con Wasp (React + Node + Prisma) con temas atómicos, descripciones detalladas y ejercicios personalizados generados dinámicamente. Usé GPT-3.5/4o con 2-3 validaciones post-generación.",
-        "impact": [
-          "Habilitó generación adaptativa de preguntas con retroalimentación en tiempo real",
-          "Sirvió como prototipo temprano para tutoría IA basada en dominio",
-          "Proporcionó base técnica para Arbor School (preu.arbor.school)"
-        ],
-        "tech": ["Wasp", "PostgreSQL", "OpenAI APIs"],
         "links": []
       },
       {
