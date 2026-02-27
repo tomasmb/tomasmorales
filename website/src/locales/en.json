@@ -127,10 +127,15 @@
       "description": "Property data aggregation and market analytics",
       "projects": "Go scraper with thousands of daily price updates"
     },
-    "government": {
-      "name": "Government",
-      "description": "Public sector digital transformation projects",
-      "projects": "Multiple government agency platforms"
+    "agtech": {
+      "name": "AgTech",
+      "description": "IoT sensor networks for soil, weather, and crop data to optimize farm resources and yields",
+      "projects": "CDTEC precision agriculture platform"
+    },
+    "logistics": {
+      "name": "Logistics",
+      "description": "Fleet management, route optimization, and supply chain software",
+      "projects": "Jack, Bio Bio, and retail logistics systems at Tubesoft"
     }
   },
   "projects": {

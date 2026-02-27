@@ -7,7 +7,8 @@ import {
   TrendingUp,
   Home,
   ShoppingBag,
-  Building2,
+  Sprout,
+  Truck,
 } from 'lucide-react';
 
 export function Industries() {
@@ -51,13 +52,22 @@ export function Industries() {
       iconColor: 'text-orange-600 dark:text-orange-400',
     },
     {
-      icon: Building2,
-      name: t('government.name'),
-      description: t('government.description'),
-      projects: t('government.projects'),
-      color: 'border-gray-200 dark:border-gray-700 hover:border-gray-400 dark:hover:border-gray-600',
-      iconBg: 'bg-gray-50 dark:bg-gray-900/30',
-      iconColor: 'text-gray-600 dark:text-gray-400',
+      icon: Sprout,
+      name: t('agtech.name'),
+      description: t('agtech.description'),
+      projects: t('agtech.projects'),
+      color: 'border-emerald-200 dark:border-emerald-800 hover:border-emerald-400 dark:hover:border-emerald-600',
+      iconBg: 'bg-emerald-50 dark:bg-emerald-950/30',
+      iconColor: 'text-emerald-600 dark:text-emerald-400',
+    },
+    {
+      icon: Truck,
+      name: t('logistics.name'),
+      description: t('logistics.description'),
+      projects: t('logistics.projects'),
+      color: 'border-amber-200 dark:border-amber-800 hover:border-amber-400 dark:hover:border-amber-600',
+      iconBg: 'bg-amber-50 dark:bg-amber-950/30',
+      iconColor: 'text-amber-600 dark:text-amber-400',
     },
   ];
 
