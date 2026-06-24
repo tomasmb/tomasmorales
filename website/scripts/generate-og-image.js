@@ -64,7 +64,7 @@ async function generateOGImage() {
         }
       </style>
       <text x="520" y="280" class="title">Tomas Morales</text>
-      <text x="520" y="340" class="subtitle">AI Product Engineer</text>
+      <text x="520" y="340" class="subtitle">Staff Engineer @ Alpha Anywhere</text>
     </svg>
   `;
 

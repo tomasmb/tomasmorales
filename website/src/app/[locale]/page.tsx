@@ -1,7 +1,7 @@
 import { Navigation } from '@/components/ui/Navigation';
 import { Hero } from '@/components/sections/Hero';
 import { About } from '@/components/sections/About';
-import { Arbor } from '@/components/sections/Arbor';
+import { Now } from '@/components/sections/Now';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { Experience } from '@/components/sections/Experience';
 import { Skills } from '@/components/sections/Skills';
@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Arbor />
+        <Now />
         <Testimonials />
         <Experience />
         <Skills />

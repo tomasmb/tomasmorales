@@ -2,13 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import {
-  Mail,
-  Linkedin,
-  Github,
-  ExternalLink,
-  GraduationCap,
-} from 'lucide-react';
+import { Mail, Linkedin, Github, ExternalLink } from 'lucide-react';
 
 export function Contact() {
   const t = useTranslations('contact');
@@ -47,17 +41,6 @@ export function Contact() {
           <p className="text-lg text-foreground/70 mb-10 max-w-2xl mx-auto">
             {t('subtitle')}
           </p>
-
-          <a
-            href="https://preu.arbor.school"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-6 py-4 mb-10 bg-accent text-white rounded-xl hover:bg-accent/90 transition-colors font-medium text-lg"
-          >
-            <GraduationCap size={24} />
-            {t('arborCta')}
-            <ExternalLink size={18} />
-          </a>
 
           <div className="space-y-4 max-w-2xl mx-auto">
             {links.map((link, index) => (

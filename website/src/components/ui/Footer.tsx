@@ -10,12 +10,12 @@ export function Footer() {
           <p>{t('built')}</p>
           <div className="flex items-center gap-4">
             <a
-              href="https://preu.arbor.school"
+              href="https://www.linkedin.com/in/tomasmb1"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
             >
-              preu.arbor.school
+              linkedin.com/in/tomasmb1
             </a>
             <span>·</span>
             <p>{t('openSource')}</p>

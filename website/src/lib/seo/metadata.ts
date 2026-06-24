@@ -3,19 +3,19 @@ import { Metadata } from 'next';
 export const baseMetadata: Metadata = {
   metadataBase: new URL('https://tomasmorales.dev'),
   title: {
-    default: 'Tomas Morales | Founder of Arbor Learning',
+    default: 'Tomas Morales | Staff Engineer at Alpha Anywhere',
     template: '%s | Tomas Morales',
   },
   description:
-    'Founder of Arbor Learning — an AI-powered adaptive PreU helping Chilean students master the PAES. 10+ years shipping products, former CTO, building the future of education.',
+    'Staff Engineer at Alpha Anywhere, building the software behind next generation education. Former CTO, 10+ years shipping products across EdTech, FinTech, and more.',
   keywords: [
-    'Arbor Learning',
     'Tomas Morales',
-    'PreU digital',
-    'PAES',
-    'adaptive education',
+    'Alpha Anywhere',
+    'Staff Engineer',
+    'Software Architecture',
+    'Backend Engineering',
     'EdTech',
-    'AI Product Engineer',
+    'AI for Education',
     'Generative AI',
     'Full-Stack Engineer',
     'Next.js',
@@ -41,24 +41,24 @@ export const baseMetadata: Metadata = {
     locale: 'en_US',
     url: 'https://tomasmorales.dev',
     siteName: 'Tomas Morales',
-    title: 'Tomas Morales | Founder of Arbor Learning',
+    title: 'Tomas Morales | Staff Engineer at Alpha Anywhere',
     description:
-      'Building the future of education with Arbor Learning — an AI-powered adaptive PreU for PAES mastery. 10k+ questions, 200+ lessons per subject, all AI-generated and validated.',
+      'Staff Engineer at Alpha Anywhere, building the software behind next generation education. Former CTO, 10+ years shipping products.',
     images: [
       {
-        url: '/og-image.jpg?v=2',
+        url: '/og-image.jpg?v=3',
         width: 1200,
         height: 630,
-        alt: 'Tomas Morales - Founder of Arbor Learning',
+        alt: 'Tomas Morales - Staff Engineer at Alpha Anywhere',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tomas Morales | Founder of Arbor Learning',
+    title: 'Tomas Morales | Staff Engineer at Alpha Anywhere',
     description:
-      'Building the future of education with Arbor Learning — an AI-powered adaptive PreU for PAES mastery. 10k+ questions, 200+ lessons per subject, all AI-generated and validated.',
-    images: ['/og-image.jpg?v=2'],
+      'Staff Engineer at Alpha Anywhere, building the software behind next generation education. Former CTO, 10+ years shipping products.',
+    images: ['/og-image.jpg?v=3'],
   },
   icons: {
     icon: [
@@ -74,20 +74,17 @@ export function generateStructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Tomas Morales',
-    jobTitle: 'Founder & CEO',
+    jobTitle: 'Staff Engineer',
     description:
-      'Founder of Arbor Learning, an AI-powered adaptive PreU for PAES mastery. Former CTO with 10+ years building products across EdTech, FinTech, and more.',
+      'Staff Engineer at Alpha Anywhere, building the software behind next generation education. Former CTO with 10+ years building products across EdTech, FinTech, and more.',
     url: 'https://tomasmorales.dev',
     sameAs: [
       'https://www.linkedin.com/in/tomasmb1',
       'https://github.com/tomasmb',
-      'https://preu.arbor.school',
     ],
     worksFor: {
       '@type': 'Organization',
-      name: 'Arbor Learning',
-      url: 'https://preu.arbor.school',
-      foundingDate: '2026',
+      name: 'Alpha Anywhere',
     },
     alumniOf: {
       '@type': 'EducationalOrganization',

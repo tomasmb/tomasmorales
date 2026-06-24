@@ -2,50 +2,86 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "arbor": "Arbor",
+    "now": "Now",
     "experience": "Experience",
     "blog": "Blog",
     "contact": "Contact"
   },
   "hero": {
     "title": "Hi, I'm Tomas Morales",
-    "subtitle": "I'm building the future of education with Arbor Learning — an AI-powered PreU that turns a diagnostic into a personalized mastery path. 10+ years shipping products, now focused on helping students succeed.",
-    "tag1": "Adaptive Learning",
-    "tag2": "Full‑Stack Engineering",
-    "tag3": "Generative AI Systems",
-    "ctaPrimary": "Discover Arbor",
-    "ctaSecondary": "Let's Collaborate"
+    "subtitle": "Staff Engineer at Alpha Anywhere, building the software behind next generation education. I own the technical direction across our learner and parent products and lead the architecture for the long term. Former CTO, 10+ years shipping products.",
+    "tag1": "Software Architecture",
+    "tag2": "Backend & Platform",
+    "tag3": "AI for Education",
+    "ctaPrimary": "See what I'm building",
+    "ctaSecondary": "Get in touch"
   },
   "about": {
     "title": "About Me",
-    "bio": "Education in Chile is broken for too many students. Traditional PreUs deliver the same content to everyone, ignoring each student's unique gaps. I saw this problem firsthand — and after 10 years shipping 50+ products as an engineer and CTO, I decided to fix it. Arbor Learning is a digital PreU powered by AI that diagnoses where each student stands and builds a personalized mastery path. With 10k+ validated questions and 200+ lessons per subject, we're making PAES preparation truly adaptive.",
+    "bio": "I'm an engineer who likes building the hard parts and owning where the technology goes. After 10 years shipping 50+ products as an engineer and CTO, then a year on AI content pipelines at Alpha and a short founder chapter with Arbor Learning, I joined Alpha Anywhere full time. I'm here for the long run: setting the technical direction across our software, leading the architecture, and building a platform that gives students and parents the best possible experience.",
     "philosophy": {
       "title": "What I Believe",
       "quote1": "Great teams build fast because they trust deeply.",
       "quote2": "Impact, clarity, and the craft of building matter most.",
-      "quote3": "Work should feel like flow, not friction."
+      "quote3": "Build on solid pillars, not on whatever is fastest today."
     },
-    "funFact": "When I'm not building Arbor, I'm surfing, cycling, or splitboarding in the Andes."
+    "funFact": "When I'm not building, I'm surfing, cycling, or splitboarding in the Andes."
+  },
+  "now": {
+    "title": "What I'm Building Now",
+    "subtitle": "I'm a Staff Engineer at Alpha Anywhere, a fully homeschool model for next generation education. I own the technical direction across our software and lead the architecture that holds it together.",
+    "cards": [
+      {
+        "label": "Atlas",
+        "description": "The parent app: everything from onboarding to reporting on how their kids are doing."
+      },
+      {
+        "label": "TimeBack Anywhere",
+        "description": "The student learning app, with Hive for community and play and Alpha Bank for the rewards students earn on their work."
+      },
+      {
+        "label": "Solid foundations",
+        "description": "Paying down tech debt and cleaning up data so both apps run on a platform that performs, scales, and stays maintainable."
+      },
+      {
+        "label": "Technical direction",
+        "description": "The architecture and tech calls across the ecosystem, plus the engineering process that keeps a small team fast."
+      }
+    ]
   },
   "experience": {
     "title": "Experience & Projects",
     "downloadCV": "Download CV",
     "current": {
-      "company": "Arbor Learning",
-      "role": "Founder & CEO",
-      "period": "Feb 2026 – Present",
-      "location": "Santiago, Chile",
-      "description": "Building a digital PreU where learning finally makes sense. Arbor turns a diagnostic into a clear, personalized path using a granular skill tree.",
+      "company": "Alpha Anywhere",
+      "role": "Staff Engineer",
+      "period": "Apr 2026 – Present",
+      "location": "Remote",
+      "description": "I own the technical direction across Alpha Anywhere's software, a fully homeschool model for next generation education, and lead the architecture for the long term.",
       "highlights": [
-        "Designed mastery-based learning system with micro-lessons (10–20 min) based on worked examples + immediate practice.",
-        "Built adaptive practice engine with feedback loops to teach and verify real comprehension.",
-        "Implemented spaced repetition + interleaving for long-term retention and transfer.",
-        "Starting with PAES Matemática M1, expanding to new modules as they mature.",
-        "End-to-end ownership: product vision, architecture, engineering, and growth."
+        "Make the architecture and tech decisions across our two apps: Atlas, the parent portal, and TimeBack Anywhere, the student learning app that houses Hive and Alpha Bank.",
+        "Lead the long-term effort to pay down tech debt and clean up data so the platform runs with strong data integrity, performance, scalability, and maintainability.",
+        "Set a clean one-way data flow between the apps and handle cleanly the cases the platform doesn't cover.",
+        "Take part in product decisions and run our engineering process and Linear workflow to keep a small team fast as it grows.",
+        "Built and maintain the team's internal AI OS."
       ],
-      "tech": "Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI APIs, Gemini APIs, Anthropic APIs + more"
+      "tech": "Django, React, TypeScript, PostgreSQL, AWS + more"
     },
     "past": [
+      {
+        "company": "Arbor Learning",
+        "role": "Founder",
+        "period": "Feb 2026 – May 2026",
+        "location": "Santiago, Chile",
+        "description": "Founded an adaptive pre-university (PAES) prep platform and piloted it with a school before joining Alpha Anywhere full time.",
+        "highlights": [
+          "Built a granular skill tree that turns a diagnostic into a personalized learning path.",
+          "Designed micro-lessons around worked examples with adaptive practice and feedback.",
+          "Added mastery-based progression with spaced repetition and interleaving for retention.",
+          "Ran a pilot with one school, starting with PAES Matemática M1."
+        ],
+        "tech": "Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI / Gemini / Anthropic APIs + more"
+      },
       {
         "company": "Alpha Schools (2 Hour Learning)",
         "role": "AI Product Engineer (Senior PM / Engineering Lead)",
@@ -129,34 +165,6 @@
       }
     ]
   },
-  "arbor": {
-    "title": "How Arbor Works",
-    "subtitle": "A smarter path to PAES mastery — personalized, adaptive, and AI-powered.",
-    "steps": [
-      {
-        "label": "Diagnostic",
-        "description": "Students take a diagnostic test that maps their strengths and gaps across every skill in the subject."
-      },
-      {
-        "label": "Personalized Path",
-        "description": "Arbor builds a custom learning path based on each student's unique weaknesses using a granular skill tree."
-      },
-      {
-        "label": "Adaptive Practice",
-        "description": "Micro-lessons (10–20 min) with worked examples and immediate practice, adjusting difficulty in real time."
-      },
-      {
-        "label": "Mastery",
-        "description": "Spaced repetition and interleaving ensure long-term retention. Students advance only when they truly understand."
-      }
-    ],
-    "metrics": [
-      { "value": "10,000+", "label": "AI-validated questions per subject" },
-      { "value": "200+", "label": "Structured lessons per subject" },
-      { "value": "100%", "label": "AI-generated and expert-validated content" }
-    ],
-    "cta": "Try Arbor Now"
-  },
   "testimonials": {
     "title": "What People Say",
     "items": [
@@ -169,10 +177,10 @@
       },
       {
         "name": "Amanda Shipka",
-        "title": "Full Stack Builder @ Alpha",
-        "relationship": "Worked together at Alpha School",
+        "title": "Chief Product Officer @ Alpha Anywhere",
+        "relationship": "Works together at Alpha Anywhere",
         "image": "/amanda.jpeg",
-        "quote": "I had the pleasure of working alongside Tomas at Alpha School, and he's someone I'd recommend without hesitation. He's a genuinely talented engineer who delivers high-quality work fast, but what really sets him apart is his character. He's one of the kindest, most team-oriented people I've worked with. He was always the first to offer help, even when something wasn't his responsibility. He's also deeply passionate about education, and it's no surprise he's now building tools to help students succeed. Any team would be lucky to have him."
+        "quote": "I had the pleasure of working alongside Tomas at Alpha, and he's someone I'd recommend without hesitation. He's a genuinely talented engineer who delivers high-quality work fast, but what really sets him apart is his character. He's one of the kindest, most team-oriented people I've worked with. He was always the first to offer help, even when something wasn't his responsibility. He's also deeply passionate about education, and it's no surprise he's now building tools to help students succeed. Any team would be lucky to have him."
       },
       {
         "name": "Patricio Orrego",
@@ -198,9 +206,8 @@
     ]
   },
   "contact": {
-    "title": "Let's Build Together",
-    "subtitle": "Whether you're an investor, a school, a PreU, or a municipality looking to bring adaptive learning to your students — I'd love to talk.",
-    "arborCta": "Bring Arbor to your institution",
+    "title": "Let's Connect",
+    "subtitle": "I'm building at Alpha Anywhere and I'm here for the long run. Always happy to talk education, engineering, and AI, or just connect.",
     "email": "tomas.morales.ber@gmail.com",
     "linkedin": "linkedin.com/in/tomasmb1",
     "github": "github.com/tomasmb"

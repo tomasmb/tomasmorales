@@ -1,29 +1,44 @@
 # Tomas Morales
 
-**Founder @ Arbor Learning | AI Product Engineer | Former CTO**  
-📍 Santiago, Chile — Open to relocation (San Francisco preferred)  
-✉️ tomas.morales.ber@gmail.com | 🔗 www.linkedin.com/in/tomasmb1 | 💻 https://github.com/tomasmb
+**Staff Engineer @ Alpha Anywhere | Former CTO**  
+Santiago, Chile  
+tomas.morales.ber@gmail.com | www.linkedin.com/in/tomasmb1 | https://github.com/tomasmb
 
 ---
 
 ## Summary
 
-Founder of Arbor Learning — a digital PreU where learning finally makes sense. AI Product Engineer and full-stack builder with 10+ years delivering 0→1 products. **Former CTO (5 yrs)** leading 50+ projects and technical teams. At Alpha Schools (2 Hour Learning) designed and built **AI pipelines for collecting and transforming educational content into structured QTI 3.0 data**. Daily **power user of Claude Code and GPT models** for content generation, crawling, enrichment, and structured data transformation. Skilled at prototyping, iterating rapidly, and carrying AI systems through the **full lifecycle: ideation, model selection, productionization, and maintenance**. Experienced in designing **knowledge-graph-driven learning systems** that apply mastery-based learning and spaced repetition.
+Staff Engineer at Alpha Anywhere, building the software behind next generation education. I own the technical direction across our learner and parent products and lead the architecture for the long term. Product-minded engineer with 10+ years delivering 0→1 products. Former CTO (5 yrs) leading 50+ projects and technical teams. At Alpha Schools (2 Hour Learning) designed and built AI pipelines for collecting and transforming educational content into structured QTI 3.0 data. Experienced in backend architecture, data integrity, platform scalability, and building engineering processes for small teams that need to grow.
 
 ---
 
 ## Experience
 
-### **Founder & CEO**
+### **Staff Engineer**
 
-**Arbor Learning** — Santiago, Chile | Feb 2026–Present
+**Alpha Anywhere** — Remote | Apr 2026–Present
 
-- Building a digital PreU that turns a diagnostic into a clear, personalized mastery path using a granular skill tree ("árbol" de conocimiento).
-- Designed **mastery-based learning system** with micro-lessons (10–20 min) based on worked examples + immediate practice.
-- Built **adaptive practice engine** with feedback loops to teach and verify real comprehension.
-- Implemented **spaced repetition + interleaving** for long-term retention and transfer.
-- Starting with **PAES Matemática M1**, expanding to new modules as they mature.
-- End-to-end ownership: product vision, architecture, engineering, and growth.
+- Own the technical direction across Alpha Anywhere's software, a fully homeschool model for next generation education.
+- Make the architecture and tech decisions across two apps: Atlas (parent portal) and TimeBack Anywhere (student learning app with Hive and Alpha Bank).
+- Lead the long-term effort to pay down tech debt and clean up data for strong data integrity, performance, scalability, and maintainability.
+- Set clean one-way data flow between the apps and handle edge cases the platform does not cover.
+- Take part in product decisions and run the engineering process and Linear workflow.
+- Built and maintain the team's internal AI OS.
+
+**Tech:** Django, React, TypeScript, PostgreSQL, AWS + more
+
+---
+
+### **Founder**
+
+**Arbor Learning** — Santiago, Chile | Feb 2026–May 2026
+
+- Founded an adaptive pre-university (PAES) prep platform and piloted it with a school before joining Alpha Anywhere full time.
+- Built a granular skill tree that turns a diagnostic into a personalized learning path.
+- Designed micro-lessons around worked examples with adaptive practice and feedback.
+- Added mastery-based progression with spaced repetition and interleaving for retention.
+
+**Tech:** Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI / Gemini / Anthropic APIs + more
 
 ---
 
@@ -31,12 +46,14 @@ Founder of Arbor Learning — a digital PreU where learning finally makes sense.
 
 **Alpha Schools (2 Hour Learning)** — Remote | Feb 2025–Feb 2026
 
-- Designed **generative AI pipeline** to create lessons and question banks from a knowledge graph (Math Academy Way), enabling mastery-based learning and spaced repetition.
-- Sole technical owner of **Common Core Crawl**, an AI-assisted system that ingests and transforms standardized test data into **QTI 3.0 XML** for large-scale use.
-- Built converters to transform PDFs/HTML into QTI, achieving **~100% accuracy** on supported question types.
-- Integrated **AI prompting pipelines** for crawling, enrichment, transformation, and validation with Claude & OpenAI.
-- Documented **prompt engineering strategies** ("brainlifts") after extensive experimentation to improve reliability and speed.
+- Designed generative AI pipeline to create lessons and question banks from a knowledge graph (Math Academy Way), enabling mastery-based learning and spaced repetition.
+- Sole technical owner of Common Core Crawl, an AI-assisted system that ingests and transforms standardized test data into QTI 3.0 XML for large-scale use.
+- Built converters to transform PDFs/HTML into QTI, achieving ~100% accuracy on supported question types.
+- Integrated AI prompting pipelines for crawling, enrichment, transformation, and validation with Claude and OpenAI.
+- Documented prompt engineering strategies after extensive experimentation to improve reliability and speed.
 - Delivered end-to-end systems: architecture, coding, deployment, and iteration at startup pace.
+
+**Tech:** Next.js, Node.js, AWS, Terraform, MongoDB, PostgreSQL, GraphQL, OpenAI APIs, Anthropic APIs + more
 
 ---
 
@@ -44,11 +61,13 @@ Founder of Arbor Learning — a digital PreU where learning finally makes sense.
 
 **Tubesoft** — Remote | 2020–2025
 
-- Led a **15-engineer team**, hiring, mentoring, and building company-wide engineering culture and career paths.
-- Directed **50+ full-stack projects** from idea to production across retail, finance, agronomy, and education.
-- Developed **project starter templates and internal libraries** (monolithic apps with auth/payments, APIs, mobile/web clients) that saved **100–200h per project**, standardized codebases, and accelerated delivery — functioning as the company's **internal developer platform**.
-- Built internal **team management platform** for tracking projects, time, costs, peer evaluations, and career growth, used daily by 15 engineers and 3 managers.
-- Delivered scalable platforms using **React, Next.js, Node.js, AWS, GCP, Docker**.
+- Led a 15-engineer team, hiring, mentoring, and building company-wide engineering culture and career paths.
+- Directed 50+ full-stack projects from idea to production across retail, finance, agronomy, and education.
+- Developed project starter templates and internal libraries that saved 100–200h per project and standardized codebases.
+- Built internal team management platform for tracking projects, time, costs, peer evaluations, and career growth.
+- Delivered scalable platforms using React, Next.js, Node.js, AWS, GCP, Docker.
+
+**Tech:** React, Next.js, Node.js, AWS, GCP, Docker, PostgreSQL + more
 
 ---
 
@@ -56,8 +75,8 @@ Founder of Arbor Learning — a digital PreU where learning finally makes sense.
 
 **Ztudia** — Remote | 2024
 
-- Built a **generative AI tutoring prototype** with early GPT models to create personalized exercises and automated feedback.
-- Applied **prompt engineering** to deliver adaptive content aligned with student weaknesses.
+- Built a generative AI tutoring prototype with early GPT models to create personalized exercises and automated feedback.
+- Applied prompt engineering to deliver adaptive content aligned with student weaknesses.
 
 ---
 
@@ -65,8 +84,8 @@ Founder of Arbor Learning — a digital PreU where learning finally makes sense.
 
 Chile | 2015–2019
 
-- Built a **personalized PreU platform** for adaptive test prep.
-- Developed a **real estate market analytics tool** to collect and analyze property data automatically.
+- Built a personalized PreU platform for adaptive test prep.
+- Developed a real estate market analytics tool to collect and analyze property data automatically.
 - Delivered full-stack projects end-to-end: requirements, coding, deployment, and client onboarding.
 
 **Tech:** Ruby on Rails, Golang, Python, AWS, Elastic Beanstalk, PostgreSQL
@@ -82,16 +101,8 @@ Pontificia Universidad Católica de Chile (top LATAM university)
 
 ## Skills
 
-- **AI & ML:** Generative AI, prompt engineering, Claude Code, OpenAI APIs, Anthropic APIs, knowledge graphs, mastery-based learning, spaced repetition, QTI transformation
-- **Fullstack Development:** React, Next.js, Node.js, TypeScript, Prisma, tRPC
-- **Infrastructure:** AWS (Lambda, RDS, S3, CDK), Docker, GitHub Actions, GCP
+- **Backend & Platform:** Django, React, Next.js, Node.js, TypeScript, PostgreSQL, AWS, data integrity, scalability, maintainability
+- **AI & ML:** Generative AI, prompt engineering, OpenAI APIs, Anthropic APIs, knowledge graphs, mastery-based learning, QTI transformation
+- **Infrastructure:** AWS (Lambda, RDS, S3, CDK), Docker, GitHub Actions, GCP, Vercel
 - **Databases:** PostgreSQL, MongoDB
-- **Leadership:** Hiring, coaching, building engineering culture, 0→1 execution, product strategy
-
----
-
-## Side Projects
-
-- **Arbor Learning (2026):** Digital PreU with mastery-based adaptive learning for PAES preparation.
-- **Ztudia (2024):** Generative AI tutoring prototype (exercise + feedback generation).
-- **Freelance projects (2015–2019):** EdTech and real estate analytics platforms.
+- **Leadership:** Hiring, coaching, building engineering culture, 0→1 execution, product strategy, engineering process

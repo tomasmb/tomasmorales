@@ -2,50 +2,86 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre Mí",
-    "arbor": "Arbor",
+    "now": "Ahora",
     "experience": "Experiencia",
     "blog": "Blog",
     "contact": "Contacto"
   },
   "hero": {
     "title": "Hola, soy Tomas Morales",
-    "subtitle": "Estoy construyendo el futuro de la educación con Arbor Learning — un PreU digital con IA que convierte un diagnóstico en un camino personalizado de dominio. 10+ años creando productos, ahora enfocado en ayudar a estudiantes a tener éxito.",
-    "tag1": "Aprendizaje Adaptativo",
-    "tag2": "Ingeniería Full‑Stack",
-    "tag3": "Sistemas de IA Generativa",
-    "ctaPrimary": "Conoce Arbor",
-    "ctaSecondary": "Colaboremos"
+    "subtitle": "Staff Engineer en Alpha Anywhere, construyendo el software detrás de la educación de la próxima generación. Lidero la dirección técnica de nuestros productos para estudiantes y padres, y la arquitectura a largo plazo. Ex CTO, 10+ años creando productos.",
+    "tag1": "Arquitectura de Software",
+    "tag2": "Backend y Plataforma",
+    "tag3": "IA para Educación",
+    "ctaPrimary": "Mira lo que construyo",
+    "ctaSecondary": "Conversemos"
   },
   "about": {
     "title": "Sobre Mí",
-    "bio": "La educación en Chile está fallando para demasiados estudiantes. Los PreUs tradicionales entregan el mismo contenido a todos, ignorando las brechas únicas de cada estudiante. Vi este problema de primera mano — y después de 10 años creando más de 50 productos como ingeniero y CTO, decidí solucionarlo. Arbor Learning es un PreU digital impulsado por IA que diagnostica dónde está cada estudiante y construye un camino personalizado hacia el dominio. Con 10k+ preguntas validadas y 200+ lecciones por asignatura, estamos haciendo que la preparación PAES sea verdaderamente adaptativa.",
+    "bio": "Soy un ingeniero al que le gusta construir las partes difíciles y hacerse cargo de hacia dónde va la tecnología. Después de 10 años creando más de 50 productos como ingeniero y CTO, luego un año en pipelines de contenido con IA en Alpha y un breve capítulo como fundador con Arbor Learning, entré full time a Alpha Anywhere. Vine para quedarme: defino la dirección técnica de nuestro software, lidero la arquitectura y construyo una plataforma que le dé a estudiantes y padres la mejor experiencia posible.",
     "philosophy": {
       "title": "En Qué Creo",
       "quote1": "Los grandes equipos construyen rápido porque confían profundamente.",
       "quote2": "El impacto, la claridad y el arte de construir son lo que más importa.",
-      "quote3": "El trabajo debería sentirse como flujo, no fricción."
+      "quote3": "Construir sobre pilares sólidos, no sobre lo más rápido de hoy."
     },
-    "funFact": "Cuando no estoy construyendo Arbor, hago surf, ciclismo o splitboard en los Andes."
+    "funFact": "Cuando no estoy construyendo, hago surf, ciclismo o splitboard en los Andes."
+  },
+  "now": {
+    "title": "Lo Que Estoy Construyendo",
+    "subtitle": "Soy Staff Engineer en Alpha Anywhere, un modelo 100% homeschool para la educación de la próxima generación. Lidero la dirección técnica de nuestro software y la arquitectura que lo sostiene.",
+    "cards": [
+      {
+        "label": "Atlas",
+        "description": "La app de los padres: desde el onboarding hasta el reporte de cómo van sus hijos."
+      },
+      {
+        "label": "TimeBack Anywhere",
+        "description": "La app de aprendizaje de los estudiantes, con Hive para comunidad y juego, y Alpha Bank para las recompensas que ganan por su trabajo."
+      },
+      {
+        "label": "Bases sólidas",
+        "description": "Pagar deuda técnica y ordenar los datos para que ambas apps corran sobre una plataforma que rinde, escala y se mantiene en el tiempo."
+      },
+      {
+        "label": "Dirección técnica",
+        "description": "Las decisiones de arquitectura y tecnología en todo el ecosistema, más el proceso de ingeniería que mantiene ágil a un equipo chico."
+      }
+    ]
   },
   "experience": {
     "title": "Experiencia y Proyectos",
     "downloadCV": "Descargar CV",
     "current": {
-      "company": "Arbor Learning",
-      "role": "Fundador & CEO",
-      "period": "Feb 2026 – Presente",
-      "location": "Santiago, Chile",
-      "description": "Construyendo un PreU digital donde aprender, por fin, hace sentido. Arbor convierte un diagnóstico en un camino claro y personalizado usando un árbol granular de habilidades.",
+      "company": "Alpha Anywhere",
+      "role": "Staff Engineer",
+      "period": "Abr 2026 – Presente",
+      "location": "Remoto",
+      "description": "Lidero la dirección técnica del software de Alpha Anywhere, un modelo 100% homeschool para la educación de la próxima generación, y la arquitectura a largo plazo.",
       "highlights": [
-        "Diseñé sistema de aprendizaje mastery-based con micro-lecciones (10–20 min) basadas en ejemplos resueltos + práctica inmediata.",
-        "Construí motor de práctica adaptativa con feedback para enseñar y comprobar comprensión real.",
-        "Implementé repetición espaciada + interleaving para retención a largo plazo y transferencia.",
-        "Partiendo por PAES Matemática M1, expandiendo a nuevos módulos a medida que maduran.",
-        "Ownership completo: visión de producto, arquitectura, ingeniería y crecimiento."
+        "Tomo las decisiones de arquitectura y tecnología en nuestras dos apps: Atlas, el portal de padres, y TimeBack Anywhere, la app de aprendizaje que contiene Hive y Alpha Bank.",
+        "Lidero el esfuerzo de largo plazo para pagar deuda técnica y ordenar los datos, con integridad de datos, rendimiento, escalabilidad y mantenibilidad fuertes.",
+        "Defino un flujo de datos limpio y en una sola dirección entre las apps, y resuelvo bien los casos que la plataforma no cubre.",
+        "Participo en decisiones de producto y manejo el proceso de ingeniería y el flujo en Linear para mantener ágil a un equipo chico que crece.",
+        "Construí y mantengo el AI OS interno del equipo."
       ],
-      "tech": "Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI APIs, Gemini APIs, Anthropic APIs + más"
+      "tech": "Django, React, TypeScript, PostgreSQL, AWS + más"
     },
     "past": [
+      {
+        "company": "Arbor Learning",
+        "role": "Fundador",
+        "period": "Feb 2026 – May 2026",
+        "location": "Santiago, Chile",
+        "description": "Fundé una plataforma adaptativa de preparación PAES y la pilotee con un colegio antes de entrar full time a Alpha Anywhere.",
+        "highlights": [
+          "Construí un árbol granular de habilidades que convierte un diagnóstico en un camino de aprendizaje personalizado.",
+          "Diseñé micro-lecciones basadas en ejemplos resueltos con práctica adaptativa y feedback.",
+          "Agregué progresión basada en dominio con repetición espaciada e interleaving para la retención.",
+          "Realicé un piloto con un colegio, partiendo por PAES Matemática M1."
+        ],
+        "tech": "Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI / Gemini / Anthropic APIs + más"
+      },
       {
         "company": "Alpha Schools (2 Hour Learning)",
         "role": "Ingeniero de Producto IA (PM Senior / Líder de Ingeniería)",
@@ -129,34 +165,6 @@
       }
     ]
   },
-  "arbor": {
-    "title": "Cómo Funciona Arbor",
-    "subtitle": "Un camino más inteligente hacia el dominio PAES — personalizado, adaptativo e impulsado por IA.",
-    "steps": [
-      {
-        "label": "Diagnóstico",
-        "description": "Los estudiantes realizan un test diagnóstico que mapea sus fortalezas y brechas en cada habilidad de la asignatura."
-      },
-      {
-        "label": "Camino Personalizado",
-        "description": "Arbor construye un camino de aprendizaje personalizado basado en las debilidades únicas de cada estudiante usando un árbol granular de habilidades."
-      },
-      {
-        "label": "Práctica Adaptativa",
-        "description": "Micro-lecciones (10–20 min) con ejemplos resueltos y práctica inmediata, ajustando la dificultad en tiempo real."
-      },
-      {
-        "label": "Dominio",
-        "description": "Repetición espaciada e interleaving aseguran retención a largo plazo. Los estudiantes avanzan solo cuando realmente comprenden."
-      }
-    ],
-    "metrics": [
-      { "value": "10.000+", "label": "Preguntas validadas por IA por asignatura" },
-      { "value": "200+", "label": "Lecciones estructuradas por asignatura" },
-      { "value": "100%", "label": "Contenido generado por IA y validado por expertos" }
-    ],
-    "cta": "Prueba Arbor Ahora"
-  },
   "testimonials": {
     "title": "Lo Que Dicen",
     "items": [
@@ -169,10 +177,10 @@
       },
       {
         "name": "Amanda Shipka",
-        "title": "Full Stack Builder @ Alpha",
-        "relationship": "Trabajaron juntos en Alpha School",
+        "title": "Chief Product Officer @ Alpha Anywhere",
+        "relationship": "Trabajan juntos en Alpha Anywhere",
         "image": "/amanda.jpeg",
-        "quote": "Tuve el placer de trabajar junto a Tomás en Alpha School, y es alguien a quien recomendaría sin dudarlo. Es un ingeniero genuinamente talentoso que entrega trabajo de alta calidad rápidamente, pero lo que realmente lo distingue es su carácter. Es una de las personas más amables y orientadas al equipo con las que he trabajado. Siempre fue el primero en ofrecer ayuda, incluso cuando algo no era su responsabilidad. También es profundamente apasionado por la educación, y no sorprende que ahora esté construyendo herramientas para ayudar a los estudiantes a tener éxito. Cualquier equipo tendría suerte de tenerlo."
+        "quote": "Tuve el placer de trabajar junto a Tomás en Alpha, y es alguien a quien recomendaría sin dudarlo. Es un ingeniero genuinamente talentoso que entrega trabajo de alta calidad rápidamente, pero lo que realmente lo distingue es su carácter. Es una de las personas más amables y orientadas al equipo con las que he trabajado. Siempre fue el primero en ofrecer ayuda, incluso cuando algo no era su responsabilidad. También es profundamente apasionado por la educación, y no sorprende que ahora esté construyendo herramientas para ayudar a los estudiantes a tener éxito. Cualquier equipo tendría suerte de tenerlo."
       },
       {
         "name": "Patricio Orrego",
@@ -198,9 +206,8 @@
     ]
   },
   "contact": {
-    "title": "Construyamos Juntos",
-    "subtitle": "Ya seas inversionista, colegio, PreU o municipalidad buscando llevar aprendizaje adaptativo a tus estudiantes — me encantaría conversar.",
-    "arborCta": "Lleva Arbor a tu institución",
+    "title": "Conversemos",
+    "subtitle": "Estoy construyendo en Alpha Anywhere y vine para quedarme. Siempre feliz de conversar sobre educación, ingeniería e IA, o simplemente conectar.",
     "email": "tomas.morales.ber@gmail.com",
     "linkedin": "linkedin.com/in/tomasmb1",
     "github": "github.com/tomasmb"

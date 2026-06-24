@@ -55,9 +55,7 @@ export function Hero() {
 
             <div className="flex flex-wrap gap-3 pt-2">
               <a
-                href="https://preu.arbor.school"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#now"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors font-medium"
               >
                 {t('ctaPrimary')}
