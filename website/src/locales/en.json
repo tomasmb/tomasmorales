@@ -9,7 +9,7 @@
   },
   "hero": {
     "title": "Hi, I'm Tomas Morales",
-    "subtitle": "Staff Engineer at Alpha Anywhere, building the software behind next generation education. I own the technical direction across our learner and parent products and lead the architecture for the long term. Former CTO, 10+ years shipping products.",
+    "subtitle": "Staff Engineer at Alpha Anywhere. I lead the technical direction and architecture of our products for students and families. I care about building technology that opens up opportunities to learn. Former CTO with 10+ years building products.",
     "tag1": "Software Architecture",
     "tag2": "Backend & Platform",
     "tag3": "AI for Education",
@@ -18,14 +18,16 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm an engineer who likes building the hard parts and owning where the technology goes. After 10 years shipping 50+ products as an engineer and CTO, then a year on AI content pipelines at Alpha and a short founder chapter with Arbor Learning, I joined Alpha Anywhere full time. I'm here for the long run: setting the technical direction across our software, leading the architecture, and building a platform that gives students and parents the best possible experience.",
+    "bio": "I'm an engineer who enjoys solving hard problems, building products, and taking responsibility for the decisions behind them. Over more than 10 years, I've built 50+ products as an engineer and CTO. Education has become the focus of my work: I built AI content pipelines at Alpha, founded Arbor Learning, and now lead the technical direction and software architecture at Alpha Anywhere. I want that work to help more people access a good education.",
     "philosophy": {
       "title": "What I Believe",
-      "quote1": "Great teams build fast because they trust deeply.",
-      "quote2": "Impact, clarity, and the craft of building matter most.",
-      "quote3": "Build on solid pillars, not on whatever is fastest today."
+      "quote1": "Build things that improve people's lives.",
+      "quote2": "Do excellent work and make time for life.",
+      "quote3": "Build systems and teams that last."
     },
-    "funFact": "When I'm not building, I'm surfing, cycling, or splitboarding in the Andes."
+    "funFact": "Surfing, skiing, and mountain biking — both e-MTB and downhill — are a big part of my life. I enjoy being outdoors, developing my skills, and sharing those experiences.",
+    "personalTitle": "Beyond work",
+    "personalBio": "I want to keep exploring and playing sports for decades, be present for the people I love, and have the freedom to choose how I spend my time. For me, a good life makes room for meaningful work, relationships, and adventure."
   },
   "now": {
     "title": "What I'm Building Now",
@@ -207,14 +209,14 @@
   },
   "contact": {
     "title": "Let's Connect",
-    "subtitle": "I'm building at Alpha Anywhere and I'm here for the long run. Always happy to talk education, engineering, and AI, or just connect.",
+    "subtitle": "I'd love to connect with people building better opportunities to learn. Always happy to talk education, engineering, and AI, or swap favorite MTB trails.",
     "email": "tomas.morales.ber@gmail.com",
     "linkedin": "linkedin.com/in/tomasmb1",
     "github": "github.com/tomasmb"
   },
   "footer": {
     "built": "Built with Next.js 15 & Tailwind CSS",
-    "openSource": "Building the future of education from Santiago, Chile"
+    "openSource": "Building technology for education from Chile"
   },
   "error": {
     "title": "Something went wrong!",
