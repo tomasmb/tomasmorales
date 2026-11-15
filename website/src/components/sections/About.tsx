@@ -6,7 +6,11 @@ import { motion } from 'framer-motion';
 export function About() {
   const t = useTranslations('about');
 
-  const quotes = [t('philosophy.quote1'), t('philosophy.quote2'), t('philosophy.quote3')];
+  const quotes = [
+    t('philosophy.quote1'),
+    t('philosophy.quote2'),
+    t('philosophy.quote3'),
+  ];
 
   return (
     <section id="about" className="py-20 bg-background">
@@ -40,7 +44,15 @@ export function About() {
             </div>
           </div>
 
-          <p className="text-foreground/70 text-sm italic">{t('funFact')}</p>
+          <div className="mt-10 space-y-4">
+            <h3 className="text-xl font-semibold text-accent">
+              {t('personalTitle')}
+            </h3>
+            <p className="text-foreground/80 leading-relaxed">
+              {t('personalBio')}
+            </p>
+            <p className="text-foreground/70 leading-relaxed">{t('funFact')}</p>
+          </div>
         </motion.div>
       </div>
     </section>
