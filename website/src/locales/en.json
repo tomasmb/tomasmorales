@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm an engineer who enjoys solving hard problems, building products, and taking responsibility for the decisions behind them. Over more than 10 years, I've built 50+ products as an engineer and CTO. Education has become the focus of my work: I built AI content pipelines at Alpha, founded Arbor Learning, and now lead the technical direction and software architecture at Alpha Anywhere. I want that work to help more people access a good education.",
+    "bio": "I'm an engineer who enjoys solving hard problems, building products, and taking responsibility for the decisions behind them. Over more than 10 years, I've built 50+ products as an engineer and CTO. Education has become the focus of my work: I built AI content pipelines at Alpha and now lead the technical direction and software architecture at Alpha Anywhere. I want that work to help more people access a good education.",
     "philosophy": {
       "title": "What I Believe",
       "quote1": "Build things that improve people's lives.",
@@ -70,20 +70,6 @@
       "tech": "Django, React, TypeScript, PostgreSQL, AWS + more"
     },
     "past": [
-      {
-        "company": "Arbor Learning",
-        "role": "Founder",
-        "period": "Feb 2026 – May 2026",
-        "location": "Santiago, Chile",
-        "description": "Founded an adaptive pre-university (PAES) prep platform and piloted it with a school before joining Alpha Anywhere full time.",
-        "highlights": [
-          "Built a granular skill tree that turns a diagnostic into a personalized learning path.",
-          "Designed micro-lessons around worked examples with adaptive practice and feedback.",
-          "Added mastery-based progression with spaced repetition and interleaving for retention.",
-          "Ran a pilot with one school, starting with PAES Matemática M1."
-        ],
-        "tech": "Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI / Gemini / Anthropic APIs + more"
-      },
       {
         "company": "Alpha Schools (2 Hour Learning)",
         "role": "AI Product Engineer (Senior PM / Engineering Lead)",

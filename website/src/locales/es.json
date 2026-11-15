@@ -18,7 +18,7 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "bio": "Soy ingeniero y me gusta resolver problemas difíciles, construir productos y hacerme cargo de las decisiones que los sostienen. Durante más de 10 años he creado más de 50 productos como ingeniero y CTO. La educación se ha vuelto el centro de mi trabajo: construí pipelines de contenido con IA en Alpha, fundé Arbor Learning y hoy lidero la dirección técnica y la arquitectura del software de Alpha Anywhere. Quiero que ese trabajo ayude a más personas a acceder a una buena educación.",
+    "bio": "Soy ingeniero y me gusta resolver problemas difíciles, construir productos y hacerme cargo de las decisiones que los sostienen. Durante más de 10 años he creado más de 50 productos como ingeniero y CTO. La educación se ha vuelto el centro de mi trabajo: construí pipelines de contenido con IA en Alpha y hoy lidero la dirección técnica y la arquitectura del software de Alpha Anywhere. Quiero que ese trabajo ayude a más personas a acceder a una buena educación.",
     "philosophy": {
       "title": "En Qué Creo",
       "quote1": "Construir cosas que mejoren la vida de las personas.",
@@ -70,20 +70,6 @@
       "tech": "Django, React, TypeScript, PostgreSQL, AWS + más"
     },
     "past": [
-      {
-        "company": "Arbor Learning",
-        "role": "Fundador",
-        "period": "Feb 2026 – May 2026",
-        "location": "Santiago, Chile",
-        "description": "Fundé una plataforma adaptativa de preparación PAES y la pilotee con un colegio antes de entrar full time a Alpha Anywhere.",
-        "highlights": [
-          "Construí un árbol granular de habilidades que convierte un diagnóstico en un camino de aprendizaje personalizado.",
-          "Diseñé micro-lecciones basadas en ejemplos resueltos con práctica adaptativa y feedback.",
-          "Agregué progresión basada en dominio con repetición espaciada e interleaving para la retención.",
-          "Realicé un piloto con un colegio, partiendo por PAES Matemática M1."
-        ],
-        "tech": "Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI / Gemini / Anthropic APIs + más"
-      },
       {
         "company": "Alpha Schools (2 Hour Learning)",
         "role": "Ingeniero de Producto IA (PM Senior / Líder de Ingeniería)",

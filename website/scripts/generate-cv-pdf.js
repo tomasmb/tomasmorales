@@ -3,13 +3,7 @@ const { mdToPdf } = require('md-to-pdf');
 const path = require('path');
 const fs = require('fs');
 
-async function generateCV() {
-  const inputPath = path.join(__dirname, '../public/cv_oct_8_f.md');
-  const outputPath = path.join(__dirname, '../public/cv_tomas_morales.pdf');
-
-  // Create temporary CSS file
-  const cssPath = path.join(__dirname, '../public/cv-styles.css');
-  const cssContent = `
+const cssContent = `
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 11pt;
@@ -36,6 +30,10 @@ h3 {
   margin-top: 12pt;
   margin-bottom: 6pt;
   color: #000;
+  break-after: avoid;
+}
+h3 + p {
+  break-after: avoid;
 }
 p {
   margin: 6pt 0;
@@ -46,6 +44,7 @@ ul {
 }
 li {
   margin: 4pt 0;
+  break-inside: avoid;
 }
 strong {
   font-weight: 600;
@@ -61,6 +60,14 @@ hr {
   margin: 12pt 0;
 }
 `;
+
+
+async function generateCV() {
+  const inputPath = path.join(__dirname, '../public/cv_oct_8_f.md');
+  const outputPath = path.join(__dirname, '../public/cv_tomas_morales.pdf');
+
+  // Create temporary CSS file
+  const cssPath = path.join(__dirname, '../public/cv-styles.css');
 
   try {
     console.log('Converting CV from markdown to PDF...');

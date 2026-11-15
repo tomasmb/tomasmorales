@@ -29,19 +29,6 @@ Staff Engineer at Alpha Anywhere, building the software behind next generation e
 
 ---
 
-### **Founder**
-
-**Arbor Learning** — Santiago, Chile | Feb 2026–May 2026
-
-- Founded an adaptive pre-university (PAES) prep platform and piloted it with a school before joining Alpha Anywhere full time.
-- Built a granular skill tree that turns a diagnostic into a personalized learning path.
-- Designed micro-lessons around worked examples with adaptive practice and feedback.
-- Added mastery-based progression with spaced repetition and interleaving for retention.
-
-**Tech:** Next.js, TypeScript, PostgreSQL, Neon, Vercel, OpenAI / Gemini / Anthropic APIs + more
-
----
-
 ### **AI Product Engineer (Senior PM / Engineering Lead)**
 
 **Alpha Schools (2 Hour Learning)** — Remote | Feb 2025–Feb 2026
